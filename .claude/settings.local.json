@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(for file in /root/git/claude-code-infrastructure-showcase/.claude/skills/frontend-dev-guidelines/resources/*.md)",
+      "Bash(done)",
+      "Bash(jq:*)",
+      "Skill(success-story-researcher)",
+      "WebSearch",
+      "WebFetch(domain:techtalksdaily.medium.com)",
+      "WebFetch(domain:www.indiehackers.com)",
+      "WebFetch(domain:www.starterstory.com)",
+      "WebFetch(domain:levels.io)",
+      "Bash(cat:*)",
+      "Bash(chmod:*)",
+      "Bash(command -v:*)",
+      "Bash(npx tsx:*)",
+      "WebFetch(domain:news.tonydinh.com)",
+      "WebFetch(domain:startupblitz.net)",
+      "WebFetch(domain:newsletter.marclou.com)",
+      "WebFetch(domain:pokemondiorama.com)",
+      "WebFetch(domain:www.etsy.com)",
+      "WebFetch(domain:medium.com)",
+      "WebFetch(domain:vocal.media)",
+      "WebFetch(domain:www.nme.com)",
+      "WebFetch(domain:newsletter.gamediscover.co)",
+      "WebFetch(domain:localthunk.com)",
+      "WebFetch(domain:code.claude.com)",
+      "Skill(success-formula-analyzer)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

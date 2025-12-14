@@ -1,0 +1,398 @@
+{
+    "version": "1.0",
+    "description": "Skill activation triggers for Claude Code. Controls when skills automatically suggest or block actions.",
+    "skills": {
+        "skill-developer": {
+            "type": "domain",
+            "enforcement": "suggest",
+            "priority": "high",
+            "description": "Meta-skill for creating and managing Claude Code skills",
+            "promptTriggers": {
+                "keywords": [
+                    "skill system",
+                    "create skill",
+                    "add skill",
+                    "skill triggers",
+                    "skill rules",
+                    "hook system",
+                    "skill development",
+                    "skill-rules.json"
+                ],
+                "intentPatterns": [
+                    "(how do|how does|explain).*?skill",
+                    "(create|add|modify|build).*?skill",
+                    "skill.*?(work|trigger|activate|system)"
+                ]
+            }
+        },
+        "backend-dev-guidelines": {
+            "type": "domain",
+            "enforcement": "suggest",
+            "priority": "high",
+            "description": "Backend development patterns for Node.js/Express/TypeScript",
+            "promptTriggers": {
+                "keywords": [
+                    "backend",
+                    "backend development",
+                    "microservice",
+                    "controller",
+                    "service",
+                    "repository",
+                    "route",
+                    "routing",
+                    "express",
+                    "API",
+                    "endpoint",
+                    "middleware",
+                    "validation",
+                    "Zod",
+                    "Prisma",
+                    "database access",
+                    "BaseController",
+                    "dependency injection",
+                    "unifiedConfig",
+                    "configuration"
+                ],
+                "intentPatterns": [
+                    "(create|add|implement|build).*?(route|endpoint|API|controller|service|repository)",
+                    "(fix|handle|debug).*?(error|exception|backend)",
+                    "(add|implement).*?(middleware|validation|error.*?handling)",
+                    "(organize|structure|refactor).*?(backend|service|API)",
+                    "(how to|best practice).*?(backend|route|controller|service)"
+                ]
+            },
+            "fileTriggers": {
+                "pathPatterns": [
+                    "blog-api/src/**/*.ts",
+                    "auth-service/src/**/*.ts",
+                    "notifications-service/src/**/*.ts",
+                    "backend/**/*.ts",
+                    "api/**/*.ts",
+                    "server/**/*.ts",
+                    "services/**/*.ts"
+                ],
+                "pathExclusions": [
+                    "**/*.test.ts",
+                    "**/*.spec.ts"
+                ],
+                "contentPatterns": [
+                    "router\\.",
+                    "app\\.(get|post|put|delete|patch)",
+                    "export.*Controller",
+                    "export.*Service",
+                    "prisma\\."
+                ]
+            }
+        },
+        "frontend-dev-guidelines": {
+            "type": "guardrail",
+            "enforcement": "block",
+            "priority": "high",
+            "description": "React/TypeScript best practices including MUI v7 compatibility",
+            "promptTriggers": {
+                "keywords": [
+                    "component",
+                    "react component",
+                    "UI",
+                    "interface",
+                    "page",
+                    "modal",
+                    "dialog",
+                    "form",
+                    "MUI",
+                    "Material-UI",
+                    "Grid",
+                    "styling",
+                    "frontend",
+                    "React"
+                ],
+                "intentPatterns": [
+                    "(create|add|make|build|update|modify|edit).*?(component|UI|page|modal|dialog|form)",
+                    "(how to|best practice).*?(component|react|MUI)",
+                    "(style|design|layout).*?(component|UI)"
+                ]
+            },
+            "fileTriggers": {
+                "pathPatterns": [
+                    "frontend/src/**/*.tsx",
+                    "frontend/src/**/*.ts",
+                    "client/src/**/*.tsx",
+                    "client/src/**/*.ts",
+                    "src/**/*.tsx"
+                ],
+                "pathExclusions": [
+                    "**/*.test.tsx",
+                    "**/*.test.ts",
+                    "**/*.spec.tsx",
+                    "**/*.spec.ts",
+                    "**/*.styles.ts",
+                    "**/vite.config.ts",
+                    "**/tsconfig.json"
+                ],
+                "contentPatterns": [
+                    "from '@mui/material';",
+                    "import.*Grid.*from.*@mui",
+                    "<Grid ",
+                    "Grid2",
+                    "Unstable_Grid",
+                    "makeStyles",
+                    "@material-ui/core"
+                ]
+            },
+            "blockMessage": "⚠️ BLOCKED - Frontend Best Practices Required\n\n📋 REQUIRED ACTION:\n1. Use Skill tool: 'frontend-dev-guidelines'\n2. Review MUI v7 patterns (Grid uses size={{}} prop, NOT xs/sm props)\n3. Check React/TypeScript best practices\n4. Use proper styling patterns\n5. Then retry this edit\n\nReason: Enforce MUI v7 compatibility and React best practices\nFile: {file_path}\n\n💡 TIP: Add '// @skip-validation' comment to skip future checks",
+            "skipConditions": {
+                "sessionSkillUsed": true,
+                "fileMarkers": [
+                    "@skip-validation"
+                ],
+                "envOverride": "SKIP_FRONTEND_GUIDELINES"
+            }
+        },
+        "route-tester": {
+            "type": "domain",
+            "enforcement": "suggest",
+            "priority": "high",
+            "description": "Testing authenticated API routes with JWT cookie-based auth",
+            "promptTriggers": {
+                "keywords": [
+                    "test route",
+                    "test endpoint",
+                    "test API",
+                    "route testing",
+                    "API testing",
+                    "authenticated route",
+                    "JWT testing",
+                    "cookie auth",
+                    "test with auth"
+                ],
+                "intentPatterns": [
+                    "(test|debug|verify).*?(route|endpoint|API)",
+                    "(how to|how do I).*?test.*?(route|endpoint|API)",
+                    "test.*?(authenticated|auth|JWT|cookie)"
+                ]
+            },
+            "fileTriggers": {
+                "pathPatterns": [
+                    "**/routes/**/*.ts",
+                    "**/test-*.js",
+                    "**/test-*.ts"
+                ],
+                "contentPatterns": [
+                    "router\\.(get|post|put|delete|patch)",
+                    "app\\.(get|post|put|delete|patch)"
+                ]
+            }
+        },
+        "error-tracking": {
+            "type": "domain",
+            "enforcement": "suggest",
+            "priority": "high",
+            "description": "Sentry error tracking and performance monitoring patterns",
+            "promptTriggers": {
+                "keywords": [
+                    "error handling",
+                    "exception",
+                    "sentry",
+                    "error tracking",
+                    "captureException",
+                    "monitoring",
+                    "performance tracking"
+                ],
+                "intentPatterns": [
+                    "(add|create|implement|setup).*?(error handling|sentry|error tracking)",
+                    "(fix|handle|catch).*?(error|exception)",
+                    "(how to|best practice).*?(error|sentry|monitoring)"
+                ]
+            },
+            "fileTriggers": {
+                "pathPatterns": [
+                    "**/instrument.ts",
+                    "**/sentry*.ts",
+                    "**/*Controller.ts",
+                    "**/*Service.ts"
+                ],
+                "contentPatterns": [
+                    "@sentry",
+                    "Sentry\\.",
+                    "captureException",
+                    "captureMessage"
+                ]
+            }
+        },
+        "success-formula-analyzer": {
+            "type": "domain",
+            "enforcement": "suggest",
+            "priority": "high",
+            "description": "Analyze successful indie developers and small teams to extract reproducible success formulas",
+            "promptTriggers": {
+                "keywords": [
+                    "success pattern",
+                    "success formula",
+                    "indie developer success",
+                    "revenue model",
+                    "product-market fit",
+                    "small team success",
+                    "solo founder",
+                    "bootstrapped",
+                    "profitable indie",
+                    "successful case",
+                    "analyze success",
+                    "how they succeeded",
+                    "indie hacker",
+                    "micro-saas success"
+                ],
+                "intentPatterns": [
+                    "(analyze|study|learn from|research).*?(success|successful)",
+                    "(how did|why did).*?succeed",
+                    "(extract|find|identify).*?(pattern|formula|method)",
+                    "(replicate|copy|reproduce).*?success",
+                    "success.*?(story|case|example)"
+                ]
+            }
+        },
+        "business-idea-evaluator": {
+            "type": "domain",
+            "enforcement": "suggest",
+            "priority": "high",
+            "description": "Evaluate and score business ideas with evidence-based criteria for indie developers",
+            "promptTriggers": {
+                "keywords": [
+                    "evaluate idea",
+                    "score business",
+                    "assess market",
+                    "validate idea",
+                    "business viability",
+                    "idea validation",
+                    "market opportunity",
+                    "competitive analysis",
+                    "evaluate business",
+                    "is this idea good",
+                    "rate my idea",
+                    "business evaluation",
+                    "idea assessment"
+                ],
+                "intentPatterns": [
+                    "(evaluate|assess|analyze|score|rate).*?(idea|business|concept)",
+                    "(is|would).*?(viable|worth|good idea)",
+                    "(validate|verify|check).*?(business|idea|concept)",
+                    "(how good|should I|worth building).*?idea"
+                ]
+            }
+        },
+        "feasibility-checker": {
+            "type": "domain",
+            "enforcement": "suggest",
+            "priority": "high",
+            "description": "Validate execution feasibility for solo/small teams across technical, financial, and time dimensions",
+            "promptTriggers": {
+                "keywords": [
+                    "can I build",
+                    "feasibility",
+                    "feasible",
+                    "can I execute",
+                    "resource requirements",
+                    "technical feasibility",
+                    "time estimation",
+                    "budget requirements",
+                    "skill gap",
+                    "can I afford",
+                    "do I have time",
+                    "realistic timeline",
+                    "execution capability"
+                ],
+                "intentPatterns": [
+                    "(can I|am I able|could I).*?(build|create|execute)",
+                    "(is it|is this).*?(feasible|realistic|doable)",
+                    "(do I have|have enough).*?(time|skills|budget|resources)",
+                    "(how long|how much).*?(time|money|effort)",
+                    "feasibility.*?(check|analysis|assessment)"
+                ]
+            }
+        },
+        "business-orchestrator": {
+            "type": "domain",
+            "enforcement": "suggest",
+            "priority": "high",
+            "description": "Orchestrate comprehensive business analysis coordinating multiple specialized agents",
+            "promptTriggers": {
+                "keywords": [
+                    "complete analysis",
+                    "full validation",
+                    "comprehensive evaluation",
+                    "end-to-end analysis",
+                    "multi-agent",
+                    "orchestrate",
+                    "full assessment",
+                    "complete evaluation",
+                    "business action plan",
+                    "validate completely",
+                    "analyze everything",
+                    "full feasibility",
+                    "business strategy",
+                    "startup roadmap",
+                    "launch plan"
+                ],
+                "intentPatterns": [
+                    "(complete|comprehensive|full|thorough).*?(analysis|evaluation|assessment|validation)",
+                    "(end-to-end|complete|full).*?(check|review|analysis)",
+                    "analyze.*?(everything|completely|thoroughly)",
+                    "(create|generate|make).*?(action plan|roadmap|strategy)",
+                    "(validate|evaluate).*?(completely|thoroughly|end-to-end)"
+                ]
+            }
+        },
+        "success-story-researcher": {
+            "type": "domain",
+            "enforcement": "suggest",
+            "priority": "high",
+            "description": "Research and extract success stories from the web including founder journeys and building processes",
+            "promptTriggers": {
+                "keywords": [
+                    "research success stories",
+                    "find success cases",
+                    "search for stories",
+                    "indie developer cases",
+                    "founder journey",
+                    "product launch story",
+                    "building in public",
+                    "revenue milestone",
+                    "startup post-mortem",
+                    "indie hacker interview",
+                    "how was built",
+                    "success case study",
+                    "web scraping",
+                    "find examples",
+                    "research examples",
+                    "successful founders",
+                    "indie success",
+                    "bootstrapped stories"
+                ],
+                "intentPatterns": [
+                    "(research|find|search|look for).*?(success|successful|story|stories|case|cases)",
+                    "(how|why).*?(built|created|made|grew|launched)",
+                    "find.*?(example|examples|founder|journey)",
+                    "(search|look for).*?(indie|bootstrap|startup).*?(story|success)",
+                    "(web|internet|online).*?(research|search|scrape)"
+                ]
+            }
+        }
+    },
+    "notes": {
+        "enforcement_types": {
+            "suggest": "Skill suggestion appears but doesn't block execution",
+            "block": "Requires skill to be used before proceeding (guardrail)",
+            "warn": "Shows warning but allows proceeding"
+        },
+        "priority_levels": {
+            "critical": "Highest - Always trigger when matched",
+            "high": "Important - Trigger for most matches",
+            "medium": "Moderate - Trigger for clear matches",
+            "low": "Optional - Trigger only for explicit matches"
+        },
+        "customization": {
+            "pathPatterns": "Adjust to match your project structure (blog-api, auth-service, etc.)",
+            "keywords": "Add domain-specific terms relevant to your project",
+            "intentPatterns": "Use regex for flexible user intent matching"
+        }
+    }
+}
