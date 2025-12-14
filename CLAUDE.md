@@ -54,7 +54,18 @@ Each agent is a Claude Code skill located in `.claude/skills/[agent-name]/SKILL.
 **Data Storage** (`research/`):
 - `stories/`: Individual product success stories (`[product-slug]-[yyyy-mm-dd].md`)
 - `reports/`: Multi-product analysis reports (`[topic]-analysis-[yyyy-mm-dd].md`)
-- `patterns/`: Extracted reusable success patterns (`[pattern-name].md`)
+- `patterns/`: Extracted reusable success patterns, organized by business stage:
+  - `common/`: Universal patterns all successful businesses follow
+  - `idea-discovery/`: How to find business ideas (ranked by success probability)
+  - `validation/`: How to validate ideas (ranked by reliability)
+  - `mvp-building/`: MVP development strategies (ranked by speed)
+  - `customer-acquisition/`: Getting first customers (ranked by cold-start effectiveness)
+  - `product-market-fit/`: Achieving PMF (ranked by signal clarity)
+  - `growth/`: Scaling strategies (ranked by ROI)
+  - `monetization/`: Business models (ranked by predictability)
+  - `distribution/`: Distribution channels (ranked by leverage)
+  - `retention/`: Customer retention tactics (ranked by impact)
+  - `differentiation/`: Differentiation strategies (ranked by defensibility)
 
 **Agents** (`.claude/agents/`):
 - Standalone specialized agents for code review, refactoring, testing, debugging
@@ -96,7 +107,11 @@ User: "간단한 웹툴 성공 사례 10개 찾아줘"
 ```
 - Activates `success-formula-analyzer` skill
 - Reads files from `research/stories/`
-- Generates `research/reports/` and `research/patterns/` files
+- Extracts patterns into categorized directories:
+  - Common patterns (must-do fundamentals)
+  - Stage-specific patterns (idea discovery, validation, MVP, acquisition, PMF, growth, monetization, distribution, retention, differentiation)
+  - Patterns ranked by success probability/effectiveness within each category
+- Generates `research/reports/[topic]-patterns-[date].md` with cross-pattern analysis
 
 ### Evaluate Business Ideas
 
@@ -131,23 +146,53 @@ User: "간단한 웹툴 성공 사례 10개 찾아줘"
 ## Sources
 ```
 
-**Analysis Report** (`research/reports/`):
+**Pattern Analysis Report** (`research/reports/`):
 ```markdown
-# [Topic] Analysis Report
-**Research Date:** YYYY-MM-DD
+# [Topic] Pattern Analysis
+**Analysis Date:** YYYY-MM-DD
+**Stories Analyzed:** [N] success stories
 
-## Executive Summary
-## Stories Analyzed
-## Common Patterns
-## Timeline Benchmarks
-## Recommendations
+## Common Patterns Identified
+## Idea Discovery Patterns (Ranked by Success Rate)
+## Validation Patterns (Ranked by Reliability)
+## MVP Building Patterns (Ranked by Speed)
+## Customer Acquisition Patterns (Ranked by Cold-Start Effectiveness)
+## Product-Market Fit Patterns (Ranked by Signal Clarity)
+## Growth Patterns (Ranked by ROI)
+## Monetization Patterns (Ranked by Predictability)
+## Distribution Patterns (Ranked by Leverage)
+## Retention Patterns (Ranked by Impact)
+## Differentiation Patterns (Ranked by Defensibility)
+## Pattern Combinations
+## Recommendations by Use Case
+## Meta Insights
+```
+
+**Individual Pattern File** (`research/patterns/[category]/[pattern-name].md`):
+```markdown
+# [Pattern Name]
+**Category:** [category]
+**Success Rate:** High/Medium/Low
+**Time Investment:** [estimate]
+**Difficulty:** Easy/Medium/Hard
+
+## What Is This Pattern?
+## How It Works
+## Real Examples (Ranked by Success)
+## Why This Works
+## Prerequisites
+## Common Mistakes
+## When to Use This Pattern
+## Related Patterns
+## Sources
 ```
 
 ### Naming Conventions
 
 - Product slugs: lowercase, hyphens, no special chars (`notion`, `convertkit`, `dev-utils`)
 - Story files: `[product-slug]-[yyyy-mm-dd].md`
-- Report files: `[topic]-analysis-[yyyy-mm-dd].md`
+- Report files: `[topic]-patterns-[yyyy-mm-dd].md`
+- Pattern files: `[category]/[pattern-name].md` (kebab-case)
 - Always include dates for temporal context
 
 ## Development Guidelines

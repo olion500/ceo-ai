@@ -98,37 +98,85 @@ When analyzing a successful case, extract:
 - Market timing considerations: [Any]
 ```
 
-### 3. Pattern Categories
+### 3. Pattern Classification System
 
-**A. Problem-First Builders**
-- Found a problem they personally experienced
-- Built solution for themselves first
-- Organic community formed around solution
-- Examples: [Notion](https://notion.so) (productivity), [Gumroad](https://gumroad.com) (selling digital products)
+When extracting patterns from success stories, classify them into these categories:
 
-**B. Audience-First Builders**
-- Built audience through content/community
-- Identified problems audience faces
-- Built products audience explicitly requested
-- Examples: [Levels.fyi](https://levels.fyi) (salary data), [Indie Hackers](https://indiehackers.com) (community)
+**Common Patterns** (`research/patterns/common/`)
+- Patterns that ALL successful businesses do regardless of niche
+- Universal best practices (validate before building, focus on distribution, etc.)
+- Non-negotiable fundamentals
+- Save as: `research/patterns/common/[pattern-name].md`
 
-**C. Platform Arbitrage**
-- Identified underserved niche on existing platform
-- Built tools/services for that platform
-- Rode platform growth wave
-- Examples: Shopify apps, Chrome extensions, Notion templates
+**Idea Discovery Patterns** (`research/patterns/idea-discovery/`)
+- How founders found their business ideas
+- Methods for identifying opportunities
+- Ranked by success probability (highest first)
+- Save as: `research/patterns/idea-discovery/[method-name].md`
+- Examples: scratch-your-own-itch, observe-market-gaps, productize-services
 
-**D. Service-to-Product**
-- Started with consulting/services
-- Identified repetitive problems
-- Productized the solution
-- Examples: Many SaaS tools, templates, courses
+**Validation Patterns** (`research/patterns/validation/`)
+- How founders validated ideas before building
+- Testing methods and experiments
+- Ranked by reliability (most reliable first)
+- Save as: `research/patterns/validation/[method-name].md`
+- Examples: landing-page-test, manual-first-approach, pre-sell-validation
 
-**E. Micro-SaaS Focus**
-- Extremely narrow niche
-- Solves one specific problem really well
-- Low competition, loyal customers
-- Examples: Niche industry tools, vertical SaaS
+**MVP Building Patterns** (`research/patterns/mvp-building/`)
+- Strategies for building minimum viable products
+- Speed vs quality tradeoffs
+- Ranked by speed-to-market (fastest first)
+- Save as: `research/patterns/mvp-building/[strategy-name].md`
+- Examples: no-code-first, manual-behind-curtain, feature-prioritization
+
+**Customer Acquisition Patterns** (`research/patterns/customer-acquisition/`)
+- How founders got their first 10-100 customers
+- Early customer finding tactics
+- Ranked by effectiveness for cold start (most effective first)
+- Save as: `research/patterns/customer-acquisition/[tactic-name].md`
+- Examples: direct-outreach, founder-led-sales, niche-community-targeting
+
+**Product-Market Fit Patterns** (`research/patterns/product-market-fit/`)
+- How founders achieved and recognized PMF
+- Iteration and feedback strategies
+- Ranked by signal clarity (clearest signals first)
+- Save as: `research/patterns/product-market-fit/[method-name].md`
+- Examples: iterate-with-feedback, retention-over-acquisition, find-power-users
+
+**Growth Patterns** (`research/patterns/growth/`)
+- Strategies for scaling after achieving PMF
+- Marketing and distribution channels
+- Ranked by ROI (highest ROI first)
+- Save as: `research/patterns/growth/[strategy-name].md`
+- Examples: content-marketing, seo-driven-growth, viral-mechanics
+
+**Monetization Patterns** (`research/patterns/monetization/`)
+- Business models and pricing strategies
+- Revenue optimization tactics
+- Ranked by predictability (most predictable first)
+- Save as: `research/patterns/monetization/[model-name].md`
+- Examples: freemium-to-paid, usage-based-pricing, lifetime-deals
+
+**Distribution Patterns** (`research/patterns/distribution/`)
+- Channels and platforms for reaching customers
+- Partnership and integration strategies
+- Ranked by leverage (highest leverage first)
+- Save as: `research/patterns/distribution/[channel-name].md`
+- Examples: app-store-optimization, marketplace-strategy, integration-ecosystem
+
+**Retention Patterns** (`research/patterns/retention/`)
+- Strategies for keeping customers long-term
+- Churn reduction tactics
+- Ranked by impact (highest impact first)
+- Save as: `research/patterns/retention/[tactic-name].md`
+- Examples: onboarding-excellence, habit-forming-features, community-engagement
+
+**Differentiation Patterns** (`research/patterns/differentiation/`)
+- How founders stood out in crowded markets
+- Unique positioning strategies
+- Ranked by defensibility (most defensible first)
+- Save as: `research/patterns/differentiation/[strategy-name].md`
+- Examples: niche-specialization, unique-positioning, design-as-differentiator
 
 ## Analysis Process
 
@@ -139,11 +187,16 @@ When analyzing a successful case, extract:
 
 - [ ] Product launch date and timeline
 - [ ] Founder background and story
-- [ ] Initial problem/opportunity identified
-- [ ] MVP features and complexity
-- [ ] Launch strategy and channels
-- [ ] Early traction metrics
-- [ ] Pivot points (if any)
+- [ ] Initial problem/opportunity identified (→ idea-discovery pattern)
+- [ ] How they validated before building (→ validation pattern)
+- [ ] MVP features and complexity (→ mvp-building pattern)
+- [ ] First 10-100 customers strategy (→ customer-acquisition pattern)
+- [ ] Product-market fit signals (→ product-market-fit pattern)
+- [ ] Growth strategy and channels (→ growth pattern)
+- [ ] Business model and pricing (→ monetization pattern)
+- [ ] Distribution channels used (→ distribution pattern)
+- [ ] Customer retention tactics (→ retention pattern)
+- [ ] Differentiation strategy (→ differentiation pattern)
 - [ ] Revenue milestones
 - [ ] Current state (users, revenue, team)
 - [ ] Key challenges overcome
@@ -159,118 +212,233 @@ When analyzing a successful case, extract:
 - GitHub stars/activity (if open source)
 - Product Hunt launch data
 
-### Step 2: Extract Success Variables
+### Step 2: Extract and Classify Patterns
 
-Identify which variables correlate with success:
+For EACH success story analyzed, extract patterns into the classification system:
 
-**Market Variables:**
-- Market size and growth rate
-- Competition level
-- Customer willingness to pay
-- Pain intensity
+**1. Identify Common Patterns First**
+- What universal practices did they follow?
+- What fundamentals were non-negotiable?
+- Save to `research/patterns/common/[pattern-name].md`
 
-**Product Variables:**
-- Time to build MVP
-- Technical complexity
-- Feature differentiation
-- User experience quality
+**2. Extract Stage-Specific Patterns**
+Go through each category and extract specific methods/tactics:
 
-**Founder Variables:**
-- Domain expertise
-- Technical skills
-- Marketing ability
-- Network size
-- Available time
+- **How did they find the idea?** → `idea-discovery/[method].md`
+- **How did they validate it?** → `validation/[method].md`
+- **How did they build the MVP?** → `mvp-building/[strategy].md`
+- **How did they get first customers?** → `customer-acquisition/[tactic].md`
+- **How did they achieve PMF?** → `product-market-fit/[method].md`
+- **How did they grow?** → `growth/[strategy].md`
+- **What's their business model?** → `monetization/[model].md`
+- **What distribution channels?** → `distribution/[channel].md`
+- **How do they retain customers?** → `retention/[tactic].md`
+- **How do they differentiate?** → `differentiation/[strategy].md`
 
-**Execution Variables:**
-- Launch strategy
-- Pricing strategy
-- Customer feedback loops
-- Iteration speed
-- Marketing channels
+**3. Rank by Success Probability**
+Within each pattern file, list specific tactics ranked by:
+- Success probability (for discovery/validation)
+- Speed to market (for MVP)
+- Effectiveness (for acquisition/retention)
+- ROI (for growth)
+- Predictability (for monetization)
+- Leverage (for distribution)
+- Defensibility (for differentiation)
 
-### Step 3: Formula Synthesis
+### Step 3: Pattern File Template
 
-Create a reproducible formula:
+Each pattern file should follow this structure:
 
+```markdown
+# [Pattern Name]
+
+**Category:** [common/idea-discovery/validation/etc.]
+**Success Rate:** [High/Medium/Low based on evidence]
+**Time Investment:** [Typical time required]
+**Difficulty:** [Easy/Medium/Hard for solo founders]
+
+## What Is This Pattern?
+
+[Clear description of the pattern in 2-3 sentences]
+
+## How It Works
+
+[Step-by-step breakdown of the pattern]
+
+1. **Step 1**: [Description]
+2. **Step 2**: [Description]
+3. **Step 3**: [Description]
+
+## Real Examples (Ranked by Success)
+
+### 1. [Product Name] - [Outcome]
+- **Context**: [Brief background]
+- **Execution**: [How they applied this pattern]
+- **Results**: [Specific metrics/outcomes]
+- **Key Insight**: [What made it work]
+
+### 2. [Product Name] - [Outcome]
+[Same structure...]
+
+### 3. [Product Name] - [Outcome]
+[Same structure...]
+
+## Why This Works
+
+[Analysis of success factors]
+
+## Prerequisites
+
+- **Skills Required**: [List]
+- **Time Required**: [Estimate]
+- **Capital Required**: [Estimate]
+- **Other Requirements**: [Any]
+
+## Common Mistakes
+
+1. **Mistake**: [Description]
+   - **Why It Fails**: [Explanation]
+   - **How to Avoid**: [Solution]
+
+2. [More mistakes...]
+
+## When to Use This Pattern
+
+✅ **Good Fit When:**
+- [Condition 1]
+- [Condition 2]
+
+❌ **Bad Fit When:**
+- [Condition 1]
+- [Condition 2]
+
+## Related Patterns
+
+- [Link to related pattern in another category]
+- [Link to prerequisite pattern]
+- [Link to follow-up pattern]
+
+## Sources
+
+- [Product Name]: [URL] (accessed YYYY-MM-DD)
+- [Article/Interview]: [URL] (accessed YYYY-MM-DD)
 ```
-SUCCESS = (PROBLEM_INTENSITY × MARKET_SIZE) × (SOLUTION_QUALITY × DISTRIBUTION) / (COMPETITION × EXECUTION_DIFFICULTY)
 
-Where:
-- PROBLEM_INTENSITY: 1-10 (how badly people need this)
-- MARKET_SIZE: Reachable audience size
-- SOLUTION_QUALITY: How well you solve the problem
-- DISTRIBUTION: Effectiveness of your marketing channels
-- COMPETITION: Number of similar solutions
-- EXECUTION_DIFFICULTY: Technical + operational complexity
+### Step 4: Cross-Pattern Analysis
+
+After extracting individual patterns, look for combinations:
+
+**Successful Pattern Combinations:**
+```markdown
+## Pattern Combo: [Name]
+
+**Patterns Used:**
+1. [Pattern from idea-discovery]
+2. [Pattern from validation]
+3. [Pattern from mvp-building]
+4. [Pattern from customer-acquisition]
+
+**Why This Combo Works:**
+[Analysis]
+
+**Examples:**
+- [Product 1]: [How they combined these]
+- [Product 2]: [How they combined these]
 ```
 
-## Common Success Patterns
+## Output Format
 
-### Pattern 1: The Scratching Own Itch
+### When Analyzing Multiple Stories
 
-**Formula:**
-1. Experience frustrating problem personally
-2. Build minimal solution for yourself
-3. Share publicly (Twitter, Reddit, HN)
-4. If others resonate, polish and monetize
-5. Grow through word-of-mouth
+Create a comprehensive analysis report at `research/reports/[topic]-patterns-[yyyy-mm-dd].md`:
 
-**Success Rate:** Medium-High
-**Time to Revenue:** 1-3 months
-**Examples:** Many dev tools, productivity apps
+```markdown
+# [Topic] Pattern Analysis
 
-### Pattern 2: The Audience-First Launch
+**Analysis Date:** YYYY-MM-DD
+**Stories Analyzed:** [N] success stories
+**Categories Covered:** [List of pattern categories found]
 
-**Formula:**
-1. Build audience through content (blog, Twitter, YouTube)
-2. Engage and listen to audience problems
-3. Validate idea with audience before building
-4. Pre-sell or get beta users from audience
-5. Launch to warm audience
+## Common Patterns Identified
 
-**Success Rate:** High
-**Time to Revenue:** 3-6 months (including audience building)
-**Examples:** Courses, info products, niche SaaS
+### [Pattern Name 1]
+- **Found in:** [X/N] stories ([X]%)
+- **Category:** common
+- **Success Rate:** High/Medium/Low
+- **Key Characteristics:** [Brief description]
+- **Examples:** [Product 1], [Product 2], [Product 3]
 
-### Pattern 3: The Platform Play
+[Repeat for each common pattern...]
 
-**Formula:**
-1. Identify growing platform (Shopify, Notion, Discord)
-2. Find underserved use case on platform
-3. Build integration/tool/template
-4. Leverage platform's distribution
-5. Ride platform growth
+## Idea Discovery Patterns (Ranked by Success Rate)
 
-**Success Rate:** Medium
-**Time to Revenue:** 1-2 months
-**Examples:** Shopify apps, Notion templates, Discord bots
+### 1. [Highest Success Pattern]
+- **Found in:** [X/N] stories
+- **Success Rate:** [X]%
+- **Examples:** [Products that used this]
+- **Key Insight:** [Why this works]
 
-### Pattern 4: The Productized Service
+### 2. [Second Highest...]
 
-**Formula:**
-1. Do consulting/freelance work
-2. Identify repetitive requests
-3. Create standardized solution
-4. Package as self-serve product
-5. Transition from services to product
+[Continue ranking...]
 
-**Success Rate:** High
-**Time to Revenue:** Immediate (services), 6-12 months (product)
-**Examples:** Design systems, code generators, templates
+## [Repeat for Each Category]
 
-### Pattern 5: The Micro-SaaS
+- Validation Patterns
+- MVP Building Patterns
+- Customer Acquisition Patterns
+- Product-Market Fit Patterns
+- Growth Patterns
+- Monetization Patterns
+- Distribution Patterns
+- Retention Patterns
+- Differentiation Patterns
 
-**Formula:**
-1. Find extremely specific niche problem
-2. Build simple, focused solution
-3. Charge premium price to small audience
-4. Provide excellent support
-5. Grow through referrals in tight-knit community
+## Pattern Combinations
 
-**Success Rate:** Medium
-**Time to Revenue:** 2-4 months
-**Examples:** Industry-specific tools, workflow automation
+### Combo 1: [Name] (Found in [X] stories)
+- **Pattern Mix:**
+  - Idea Discovery: [Pattern name]
+  - Validation: [Pattern name]
+  - MVP: [Pattern name]
+  - Acquisition: [Pattern name]
+- **Success Rate:** [X]%
+- **Examples:** [Products]
+
+## Recommendations by Use Case
+
+### For Finding Ideas:
+1. [Top pattern] - [Success rate]
+2. [Second pattern] - [Success rate]
+
+### For Validating Ideas:
+1. [Top pattern] - [Reliability rate]
+2. [Second pattern] - [Reliability rate]
+
+[Continue for each category...]
+
+## Meta Insights
+
+- **Most common success path:** [Pattern combo description]
+- **Fastest path to revenue:** [Pattern combo]
+- **Highest success probability:** [Pattern combo]
+- **Best for solo founders:** [Pattern combo]
+
+## Individual Pattern Files Created
+
+- `common/[pattern-name].md` ([N] files)
+- `idea-discovery/[pattern-name].md` ([N] files)
+- `validation/[pattern-name].md` ([N] files)
+[List all pattern files created...]
+```
+
+### When Analyzing Single Story
+
+Extract all applicable patterns and either:
+1. Update existing pattern files with new example
+2. Create new pattern files if pattern is novel
+
+Always maintain ranking within each pattern file based on evidence.
 
 ## Red Flags to Avoid
 
