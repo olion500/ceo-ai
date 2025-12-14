@@ -1,0 +1,169 @@
+# GitHub PR Reviewer
+
+**Generated Date:** 2024-12-15
+**Status:** Generated (not yet feasibility-checked)
+**Score:** 8.8/10
+**Recommendation:** GO
+
+---
+
+## Quick Summary
+
+**One-Liner:** GitHub App that automatically adds AI code review comments to PRs using Claude API (senior developer-level reviews)
+
+**Success Pattern Applied:**
+- Scratch Your Own Itch (80%)
+- AI Enhancement Tools (Currently hot)
+- Developer Tools (High success)
+- Premium Pricing (High success)
+- Ship in One Week (Very high)
+
+**Expected Timeline:**
+- MVP: 7 days
+- First Revenue: 2-4 weeks
+- $1K MRR: 4-8 months
+
+---
+
+## Problem & Solution
+
+### The Problem
+**Who:** Solo developers, small teams without senior developers
+**What:** No one to review code quality, logic, best practices
+**Current Pain:**
+- Solo developers = no code review
+- Hiring senior dev = $100K+ salary
+- ESLint/Prettier = style only, not logic
+- ChatGPT = manual copy-paste, no automation
+
+**Why It Hurts:**
+- Code quality suffers without reviews
+- Bugs slip through
+- Technical debt accumulates
+- Can't afford senior developer
+
+### The Solution
+GitHub App that triggers on PR creation → Claude API analyzes code → Posts inline comments with improvement suggestions
+
+**Core Value Proposition:**
+Help solo developers and small teams get senior-level code reviews automatically for $29/month instead of hiring a $100K+ senior developer.
+
+---
+
+## Product Specification
+
+### MVP Scope (7 days)
+
+**Core Features:**
+1. GitHub App (PR webhook trigger)
+2. Claude API integration (code analysis)
+3. Inline comment posting
+
+**Excluded:**
+- ❌ GitLab/Bitbucket
+- ❌ Custom review rules
+- ❌ Dashboard/analytics
+- ❌ Team features
+
+### Technical Requirements
+
+**Stack:**
+- Backend: Node.js + GitHub App API
+- AI: Claude API
+- Hosting: Vercel serverless
+- Database: None (stateless)
+
+**Required Skills:**
+- Node.js: Advanced
+- GitHub API: Intermediate (need 2 days)
+- Claude API: Intermediate
+
+**Skill Gaps:**
+- GitHub App setup: 1-2 days learning
+
+---
+
+## Business Model
+
+### Pricing
+| Tier | Price | Features |
+|------|-------|----------|
+| Free | $0 | 5 PRs/month |
+| Solo | $29/mo | Personal repos |
+| Team | $99/mo | 5 members |
+
+**Revenue Projections:**
+- Month 3: 30 paid × $40 avg = $1,200 MRR
+- Month 6: 60 paid × $40 avg = $2,400 MRR
+- Month 12: 120 paid × $40 avg = $4,800 MRR
+
+### Costs
+- Claude API: $50-150/month
+- Vercel: $0-20/month
+- Total: $50-170/month
+
+---
+
+## Go-to-Market
+
+**Primary:** Product Hunt + Hacker News
+**Secondary:** GitHub Marketplace
+**Quick Win:** Free for open source projects
+
+---
+
+## Score Breakdown
+
+| Criterion | Score | Reasoning |
+|-----------|-------|-----------|
+| Personal Pain | 10/10 | Every solo dev needs this |
+| Market Size | 9/10 | Millions of developers |
+| Achievability | 8/10 | GitHub App + Claude (7 days) |
+| Monetization | 9/10 | Recurring, clear value |
+| Competition | 7/10 | Some tools but poor UX |
+| Timing | 10/10 | AI boom + Copilot success |
+| **TOTAL** | **8.8/10** | **GO** |
+
+---
+
+## Similar Success Stories
+
+- [TypingMind](https://typingmind.com) ($83K MRR): AI tool UX improvement
+- [GitHub Copilot](https://github.com/features/copilot): $10/mo × millions
+- DevUtils ($5K/mo): Dev tools
+
+---
+
+## Resources & References
+
+**Local Documents:**
+- Success patterns:
+  - [Scratch Your Own Itch](../../patterns/idea-discovery/scratch-your-own-itch.md)
+  - [Ship in One Week](../../patterns/mvp-building/ship-in-one-week.md)
+  - [Premium Pricing from Day One](../../patterns/monetization/premium-pricing-from-day-one.md)
+- Similar success stories:
+  - [TypingMind - Tony Dinh](../../stories/typingmind-tony-dinh-2024-12-14.md)
+  - [ShipFast - Marc Lou](../../stories/shipfast-marc-lou-2024-12-14.md)
+- Feasibility report: [GitHub PR Reviewer Feasibility](./github-pr-reviewer-feasibility-2024-12-15.md)
+
+**External References:**
+1. [GitHub Apps Documentation](https://docs.github.com/en/apps) - Core integration platform
+2. [GitHub Copilot](https://github.com/features/copilot) - Successful AI developer tool example
+3. [TypingMind](https://typingmind.com) - AI tool success story ($83K MRR)
+4. [Product Hunt - AI Tools](https://producthunt.com/topics/artificial-intelligence) - Launch platform
+5. [Hacker News Show HN](https://news.ycombinator.com/show) - Developer community
+6. [r/webdev](https://reddit.com/r/webdev) - Target customer community
+7. [GitHub Marketplace](https://github.com/marketplace) - Distribution channel
+
+**Technical Resources:**
+- [GitHub Apps API](https://docs.github.com/en/rest/apps) - Webhook and PR integration
+- [Claude API Documentation](https://anthropic.com/claude) - AI code review engine
+- [Octokit.js](https://github.com/octokit/octokit.js) - GitHub API client for Node.js
+- [Vercel Serverless Functions](https://vercel.com/docs/functions) - Hosting platform
+- [Probot Framework](https://probot.github.io/) - GitHub App framework
+
+---
+
+**Status Log:**
+- 2024-12-15: Idea generated by idea-finder skill
+- 2024-12-15: Feasibility check completed ([link](./github-pr-reviewer-feasibility-2024-12-15.md))

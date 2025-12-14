@@ -3,6 +3,7 @@
 
 # Personal settings - do not commit
 .claude/settings.local.json
-
 # Build/type check cache
 .claude/tsc-cache/
+
+.obsidian

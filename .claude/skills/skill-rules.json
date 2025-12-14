@@ -375,6 +375,39 @@
                     "(web|internet|online).*?(research|search|scrape)"
                 ]
             }
+        },
+        "idea-finder": {
+            "type": "domain",
+            "enforcement": "suggest",
+            "priority": "high",
+            "description": "Find new business ideas by applying proven success patterns from analyzed stories",
+            "promptTriggers": {
+                "keywords": [
+                    "find business ideas",
+                    "generate ideas",
+                    "new startup ideas",
+                    "what should I build",
+                    "business opportunities",
+                    "startup idea",
+                    "business idea",
+                    "find opportunities",
+                    "what to build",
+                    "idea generation",
+                    "아이템 찾아줘",
+                    "아이디어 찾기",
+                    "비즈니스 아이디어",
+                    "뭘 만들면 좋을까",
+                    "사업 아이템",
+                    "창업 아이디어"
+                ],
+                "intentPatterns": [
+                    "(find|generate|suggest|give me|show me).*?(idea|ideas|opportunity|opportunities)",
+                    "(what should|what can).*?(I|we).*?(build|create|make)",
+                    "(looking for|need|want).*?(business|startup|project).*?idea",
+                    "(help.*?find|help.*?think of).*?(idea|opportunity)",
+                    "idea.*?(generation|discovery|finding)"
+                ]
+            }
         }
     },
     "notes": {

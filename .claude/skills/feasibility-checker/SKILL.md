@@ -9,6 +9,15 @@ description: Validate execution feasibility for indie developers and small teams
 
 Systematically validate whether YOU can actually execute a business idea with your current resources, skills, and constraints. Focus on practical execution reality for indie developers and small teams.
 
+**IMPORTANT - Documentation Links:**
+- **Local document links**: Use markdown links `[Document Name](./relative-path.md)` for:
+  - Idea specification files
+  - Success pattern files in `research/patterns/`
+  - Success story files in `research/stories/`
+  - Related analysis reports
+- **External links**: Include inline where data is cited (e.g., "CodeRabbit has [$15M ARR](https://techcrunch.com/...)")
+- **References section**: Add comprehensive references list at end with all sources used
+
 ## When to Use This Skill
 
 Automatically activates when you mention:
@@ -159,6 +168,148 @@ Rate each component (1-10, where 10 is most complex):
 ✅ Clear upgrade path from MVP
 ✅ Strong community support
 
+## Market & Competition Analysis
+
+### 1. Competitor Research (CRITICAL - Use Web Search)
+
+**MUST research competitors using WebSearch tool:**
+
+```markdown
+## Competitive Landscape
+
+### Direct Competitors (Search: "[product category] tools", "[problem] solutions")
+| Competitor | Pricing | Users/Revenue | Strengths | Weaknesses | Source |
+|------------|---------|---------------|-----------|------------|--------|
+| [Name 1] | $X/mo | [Data if found] | [List] | [List] | [URL] |
+| [Name 2] | $X/mo | [Data if found] | [List] | [List] | [URL] |
+| [Name 3] | $X/mo | [Data if found] | [List] | [List] | [URL] |
+
+### Indirect Competitors (Alternatives users currently use)
+- [Alternative 1]: [How they solve it] - [Why users might switch]
+- [Alternative 2]: [How they solve it] - [Why users might switch]
+
+### Market Gaps Identified
+- Gap 1: [What competitors miss]
+- Gap 2: [What competitors miss]
+- Gap 3: [What competitors miss]
+
+### Your Differentiation
+- [How you'll be different from Competitor 1]
+- [How you'll be different from Competitor 2]
+- [What unique value you provide]
+
+**Key Insight:** [1-2 sentences on competitive positioning]
+```
+
+**Search Queries to Run:**
+- "[product type] pricing"
+- "[product type] revenue" OR "[product type] MRR"
+- "[problem] alternatives"
+- "best [product category] 2024"
+- "[competitor name] users" OR "[competitor name] customers"
+
+### 2. Revenue Model Deep Dive
+
+**Short-term Revenue (CRITICAL - Must have evidence):**
+
+```markdown
+## Short-term Revenue Potential (Week 1-4)
+
+### Market Entry Speed
+**Question: How fast can you get first customers?**
+
+**If existing market (competitors exist):**
+- Current market size: [Research from competitor data]
+- Proof of payment: [Competitor pricing confirms willingness to pay]
+- Distribution channels: [Where competitors get users - research this]
+- Entry strategy: [Your specific plan with evidence]
+- **Week 1 revenue potential:** $[X] - [Explain HOW - must be realistic]
+- **Month 1 revenue potential:** $[X] - [Explain HOW - must be realistic]
+
+**Evidence required:**
+- [ ] Found 3+ competitors with pricing → Market exists ✅
+- [ ] Found competitor user counts → Market size estimate
+- [ ] Found competitor reviews → Pain points validated
+- [ ] Found distribution channels → Path to customers clear
+- [ ] Pricing research → Willingness to pay confirmed
+
+**If no existing market (blue ocean):**
+- ⚠️ **HIGH RISK**: Need to create market
+- Validation required BEFORE building:
+  - [ ] 10+ customer interviews
+  - [ ] 5+ pre-sales commitments
+  - [ ] Landing page with email signups (target: 100+ in 2 weeks)
+- **Week 1 revenue potential:** $0 (validation phase)
+- **Month 1 revenue potential:** $0 (likely still validating)
+
+### Short-term Customer Acquisition (Must be specific)
+
+**Launch Strategy (Week 1):**
+1. [Specific platform] - [Expected reach] - [Expected conversion]
+   - Example: "Product Hunt - 500 visitors - 2% signup = 10 users"
+2. [Specific platform] - [Expected reach] - [Expected conversion]
+3. [Specific platform] - [Expected reach] - [Expected conversion]
+
+**Evidence for estimates:**
+- Similar product on Product Hunt got [X] upvotes → [Y] visitors
+- Average conversion for [category]: [Z]% (source: [URL])
+- Competitor launched on [platform] got [results] (source: [URL])
+
+**Realistic Month 1 Numbers:**
+- Visitors: [X] (from [sources])
+- Signups: [Y] ([Z]% conversion)
+- Paying: [A] ([B]% conversion to paid)
+- Revenue: $[Total]
+
+**RED FLAG if:**
+- ❌ No evidence for traffic estimates
+- ❌ Using >3% conversion assumptions
+- ❌ No research on competitor launches
+- ❌ "Will go viral" thinking
+```
+
+**Long-term Revenue (6-12 months):**
+
+```markdown
+## Long-term Revenue Model
+
+### Growth Assumptions (Must be researched)
+
+**Similar Product Benchmarks:**
+| Similar Product | Month 1 | Month 6 | Month 12 | Source |
+|-----------------|---------|---------|----------|--------|
+| [Name 1] | $X | $Y | $Z | [URL] |
+| [Name 2] | $X | $Y | $Z | [URL] |
+| [Name 3] | $X | $Y | $Z | [URL] |
+
+**Your Projections (Based on benchmarks):**
+| Metric | Month 1 | Month 3 | Month 6 | Month 12 | Assumption |
+|--------|---------|---------|---------|----------|------------|
+| Users | [X] | [Y] | [Z] | [A] | [Basis] |
+| Paying % | [X]% | [Y]% | [Z]% | [A]% | [Basis] |
+| Avg Price | $[X] | $[Y] | $[Z] | $[A] | [Basis] |
+| **MRR** | **$[X]** | **$[Y]** | **$[Z]** | **$[A]** | |
+| Churn | [X]% | [Y]% | [Z]% | [A]% | [Basis] |
+
+**Growth Drivers:**
+1. [Driver 1]: [How it works] - [Expected impact]
+2. [Driver 2]: [How it works] - [Expected impact]
+3. [Driver 3]: [How it works] - [Expected impact]
+
+**Constraints:**
+- Market size limit: [X total potential customers]
+- Distribution bottleneck: [What limits growth]
+- Competition: [How they'll react]
+
+**Realistic vs Optimistic:**
+- Conservative (70% confidence): $[X] MRR by month 12
+- Base case (50% confidence): $[Y] MRR by month 12
+- Optimistic (20% confidence): $[Z] MRR by month 12
+
+**Evidence-based reasoning:**
+[Explain WHY these numbers are realistic based on competitor research]
+```
+
 ## Financial Feasibility Assessment
 
 ### 1. Initial Development Costs
@@ -266,103 +417,22 @@ Rate each component (1-10, where 10 is most complex):
 
 ## Time Feasibility Assessment
 
-### 1. Available Time Audit
+### 1. Time Estimation (Simple)
 
-```markdown
-## Time Availability
+**How long will this take?**
+- MVP timeline: [X weeks/months]
+- What needs to be done:
+  - [Major task 1]
+  - [Major task 2]
+  - [Major task 3]
+  - [Major task 4]
 
-### Current Commitments
-- **Day Job:** [X] hours/week
-- **Family:** [X] hours/week
-- **Sleep:** [X] hours/week (56 recommended)
-- **Other:** [X] hours/week
-- **Total Committed:** [X] hours/week
+**Complexity factors:**
+- Learning new tech: [Yes/No - what?]
+- Third-party integrations: [List]
+- Infrastructure setup: [Simple/Medium/Complex]
 
-### Available Time
-- **Weekday evenings:** [X] hours × 5 = [Y] hours/week
-- **Weekend days:** [X] hours × 2 = [Y] hours/week
-- **Total Available:** [X] hours/week
-
-### Realistic Working Hours
-- Available time: [X] hours/week
-- Account for life (×0.7): [X × 0.7] hours/week
-- **Realistic capacity:** [X] hours/week for project
-```
-
-**Reality Check:**
-- <5 hours/week: Very slow progress, 6-12 months for MVP
-- 5-10 hours/week: Moderate progress, 3-6 months for MVP
-- 10-20 hours/week: Good progress, 2-4 months for MVP
-- 20-40 hours/week: Fast progress, 1-2 months for MVP
-- 40+ hours/week: Full-time, can be aggressive
-
-### 2. Project Timeline Estimation
-
-```markdown
-## MVP Timeline Breakdown
-
-### Phase 1: Setup & Foundation ([X] hours)
-- [ ] Tech stack setup: [X] hours
-- [ ] Database schema design: [X] hours
-- [ ] Authentication setup: [X] hours
-- [ ] Basic UI scaffolding: [X] hours
-- **Phase 1 Total:** [X] hours
-
-### Phase 2: Core Features ([X] hours)
-- [ ] Feature 1: [X] hours
-- [ ] Feature 2: [X] hours
-- [ ] Feature 3: [X] hours
-- **Phase 2 Total:** [X] hours
-
-### Phase 3: Polish & Launch ([X] hours)
-- [ ] UI/UX refinement: [X] hours
-- [ ] Testing: [X] hours
-- [ ] Landing page: [X] hours
-- [ ] Payment integration: [X] hours
-- [ ] Launch prep: [X] hours
-- **Phase 3 Total:** [X] hours
-
-### Total Estimated Hours: [X]
-
-### Timeline Calculation
-- Total hours needed: [X]
-- Hours available per week: [Y]
-- **Weeks needed:** [X / Y] = [Z] weeks
-- **Add 50% buffer:** [Z × 1.5] = [W] weeks
-- **Realistic timeline:** [W] weeks = [W/4] months
-```
-
-### 3. Milestone Planning
-
-```markdown
-## Project Milestones
-
-### Month 1
-- [ ] Complete setup and foundation
-- [ ] Ship basic working prototype
-- [ ] Show to 5 potential users
-- **Success metric:** Prototype demonstrates core value
-
-### Month 2
-- [ ] Implement core features
-- [ ] Get 10 beta users
-- [ ] Iterate based on feedback
-- **Success metric:** Users return 3+ times
-
-### Month 3
-- [ ] Polish UI/UX
-- [ ] Add payment processing
-- [ ] Create landing page
-- [ ] Launch publicly
-- **Success metric:** First paying customer
-
-### Decision Points
-- If no user interest by Month 1 → Pivot or abandon
-- If users don't return by Month 2 → Major iteration needed
-- If no sales by Month 4 → Re-evaluate pricing/positioning
-```
-
-### 4. Opportunity Cost Analysis
+### 2. Opportunity Cost Analysis
 
 ```markdown
 ## Opportunity Cost
@@ -522,59 +592,263 @@ Rate each component (1-10, where 10 is most complex):
 ```markdown
 # Feasibility Report: [Project Name]
 
+**Generated Date:** [YYYY-MM-DD]
+**Idea Score:** [X.X]/10
+**Feasibility Score:** [X.X]/10
+**Final Recommendation:** [PROCEED/VALIDATE MORE/AVOID]
+
+---
+
 ## Executive Summary
+
 **Can I build this?** [Yes/No/Maybe with changes]
-**Confidence level:** [High/Medium/Low]
-**Key blockers:** [List or "None"]
-**Recommended action:** [Proceed/Iterate/Abandon]
+
+**Confidence level:** [High/Medium/Low] ([X]%)
+
+**Key blockers:**
+- [Blocker 1 or "None"]
+- [Blocker 2]
+
+**Recommended action:** [PROCEED/VALIDATE MORE/AVOID with specific next steps]
+
+**Why this assessment:**
+- Technical: [1 sentence]
+- Market: [1 sentence]
+- Financial: [1 sentence]
+- Time: [1 sentence]
+
+---
+
+## Market & Competition Analysis
+
+### Competitive Landscape
+
+**Direct Competitors:**
+| Competitor | Pricing | Users/Revenue | Strengths | Weaknesses | Source |
+|------------|---------|---------------|-----------|------------|--------|
+| [[Name 1]](https://competitor1.com) | $X/mo | [Data] | [List] | [List] | [Source link](https://source.com) |
+| [[Name 2]](https://competitor2.com) | $X/mo | [Data] | [List] | [List] | [Source link](https://source.com) |
+| [[Name 3]](https://competitor3.com) | $X/mo | [Data] | [List] | [List] | [Source link](https://source.com) |
+
+**Indirect Competitors:**
+- [[Alternative 1]](https://alt1.com): [How they solve it]
+- [[Alternative 2]](https://alt2.com): [How they solve it]
+
+**Market Gaps:**
+- [Gap 1]
+- [Gap 2]
+- [Gap 3]
+
+**Your Differentiation:**
+- [How you'll be different]
+- [Unique value proposition]
+
+---
+
+## Revenue Model Analysis
+
+### Short-term Revenue (Week 1-4)
+
+**Market Entry Speed:**
+- Market exists: [Yes/No]
+- Proof of payment: [Evidence from competitors]
+- Distribution channels: [Where competitors get users]
+- **Week 1 revenue potential:** $[X] - [How specifically]
+- **Month 1 revenue potential:** $[X] - [How specifically]
+
+**Launch Strategy:**
+1. [Platform]: [Expected reach] - [Expected conversion]
+2. [Platform]: [Expected reach] - [Expected conversion]
+3. [Platform]: [Expected reach] - [Expected conversion]
+
+**Realistic Month 1 Numbers:**
+- Visitors: [X] (from [sources])
+- Signups: [Y] ([Z]% conversion)
+- Paying: [A] ([B]% conversion)
+- Revenue: $[Total]
+
+### Long-term Revenue (6-12 months)
+
+**Similar Product Benchmarks:**
+| Similar Product | Month 1 | Month 6 | Month 12 | Source |
+|-----------------|---------|---------|----------|--------|
+| [Name 1] | $X | $Y | $Z | [URL] |
+| [Name 2] | $X | $Y | $Z | [URL] |
+
+**Your Projections:**
+| Metric | Month 1 | Month 3 | Month 6 | Month 12 | Assumption |
+|--------|---------|---------|---------|----------|------------|
+| Users | [X] | [Y] | [Z] | [A] | [Basis] |
+| Paying % | [X]% | [Y]% | [Z]% | [A]% | [Basis] |
+| **MRR** | **$[X]** | **$[Y]** | **$[Z]** | **$[A]** | |
+
+**Evidence-based reasoning:**
+[Why these numbers are realistic based on research]
+
+---
 
 ## Technical Feasibility: X/10
-**Assessment:** [1-2 sentences]
-**Blockers:** [List or "None"]
-**Mitigations:** [List]
+
+### Skills Assessment
+
+**Your Current Skills:**
+- [Skill 1]: [Level] (X/10)
+- [Skill 2]: [Level] (X/10)
+- [Skill 3]: [Level] (X/10)
+
+### Requirements Matrix
+
+| Requirement | Your Level | Required | Gap | Learning Time | Blocker? |
+|-------------|------------|----------|-----|---------------|----------|
+| [Tech 1] | X/10 | Y/10 | [None/Small/Medium/Large] | [Time] | [Yes/No] |
+| [Tech 2] | X/10 | Y/10 | [None/Small/Medium/Large] | [Time] | [Yes/No] |
+| [Tech 3] | X/10 | Y/10 | [None/Small/Medium/Large] | [Time] | [Yes/No] |
+
+**Gap Summary:**
+- [Summary of learning needs]
+- Total learning time: [X weeks/months]
+- Blockers: [Yes/No - which ones]
+
+### Complexity Assessment
+
+| Component | Complexity | Expertise | Risk |
+|-----------|------------|-----------|------|
+| [Component 1] | X/10 | Y/10 | [Low/Medium/High/Critical] |
+| [Component 2] | X/10 | Y/10 | [Low/Medium/High/Critical] |
+| [Component 3] | X/10 | Y/10 | [Low/Medium/High/Critical] |
+
+**Risk Analysis:**
+- Low: [X]/[Total] components ✅
+- Medium: [X]/[Total] components ⚠️
+- High: [X]/[Total] components ⚠️
+- Critical: [X]/[Total] components 🔴
+
+**Technical Feasibility Score: X/10** [✅/⚠️/🔴]
+
+---
 
 ## Financial Feasibility: X/10
-**Assessment:** [1-2 sentences]
-**Required investment:** $[X] initial, $[Y]/month ongoing
-**Runway:** [X] months
-**Risk level:** [Low/Medium/High]
+
+### Costs
+
+**Initial:**
+- [Item]: $[X]
+- **Total: $[X]** [✅/⚠️/🔴]
+
+**Monthly:**
+| Service | Free Tier | Paid |
+|---------|-----------|------|
+| [Service 1] | $[X] | $[Y]/mo |
+| [Service 2] | $[X] | $[Y]/mo |
+| **Total** | **$[X]** | **$[Y]/mo** |
+
+**Break-even:**
+- [X] customers × $[Y] = $[Z]/mo
+- [Assessment of achievability]
+
+**Financial Feasibility Score: X/10** [✅/⚠️/🔴]
+
+---
 
 ## Time Feasibility: X/10
-**Assessment:** [1-2 sentences]
-**Available time:** [X] hours/week
-**Estimated timeline:** [X] months
-**Opportunity cost:** [Acceptable/Concerning]
+
+### Timeline
+
+**How long will this take?**
+- MVP timeline: [X weeks/months]
+
+**What needs to be done:**
+- [Major task 1]
+- [Major task 2]
+- [Major task 3]
+- [Major task 4]
+
+**Complexity factors:**
+- Learning new tech: [Yes/No - what?]
+- Third-party integrations: [List]
+- Infrastructure setup: [Simple/Medium/Complex]
+
+**Time Feasibility Score: X/10** [✅/⚠️/🔴]
+
+---
 
 ## Overall Feasibility: X/10
-**Recommendation:** [Detailed recommendation]
 
-## If Proceeding
-**Must-do items before starting:**
-1. [Item]
-2. [Item]
-3. [Item]
+| Factor | Score | Weight | Weighted | Notes |
+|--------|-------|--------|----------|-------|
+| **Technical** | X/10 | 30% | X.X | [Note] |
+| **Financial** | X/10 | 20% | X.X | [Note] |
+| **Time** | X/10 | 20% | X.X | [Note] |
+| **Market** | X/10 | 30% | X.X | [Note] |
+| **TOTAL** | | 100% | **X.X/10** | |
 
-**Success metrics (first 3 months):**
-- Month 1: [Metric]
-- Month 2: [Metric]
-- Month 3: [Metric]
+**Interpretation:** [Highly feasible/Feasible with effort/Challenging/Not feasible]
 
-**Kill criteria:**
-- If [condition] by [date], then abandon
-- If [condition] by [date], then pivot
+---
 
-## If Not Proceeding
-**Key reasons:**
-1. [Reason]
-2. [Reason]
+## Recommendation: [PROCEED/VALIDATE MORE/AVOID]
 
-**Alternative options:**
-1. [Alternative approach 1]
-2. [Alternative approach 2]
+[Detailed recommendation with specific next steps]
 
-**What would need to change:**
-- [Change 1]
-- [Change 2]
+**If PROCEED:**
+- Start with: [Specific first step]
+- Timeline: [Realistic timeline]
+- Success probability: [X]%
+
+**If VALIDATE MORE:**
+- What to validate: [Specific items]
+- How to validate: [Specific methods]
+- Decision criteria: [What determines proceed/abandon]
+
+**If AVOID:**
+- Key blockers: [List]
+- Alternative options: [List]
+- What would need to change: [List]
+
+---
+
+## References
+
+### Local Documents
+- **Idea Specification:** [Idea Name](./[idea-slug]-[yyyy-mm-dd].md)
+- **Success Patterns Applied:**
+  - [Pattern 1](../../patterns/[category]/[pattern-name].md)
+  - [Pattern 2](../../patterns/[category]/[pattern-name].md)
+- **Similar Success Stories:**
+  - [Story 1](../../stories/[story-slug]-[yyyy-mm-dd].md)
+  - [Story 2](../../stories/[story-slug]-[yyyy-mm-dd].md)
+
+### Competitor Research
+1. [Competitor 1 Name](https://competitor1.com) - Official website
+2. [Competitor 1 Pricing](https://competitor1.com/pricing) - Pricing page
+3. [Competitor 1 Revenue/Users](https://source.com/article) - Third-party data source
+4. [Competitor 2 Name](https://competitor2.com) - Official website
+5. [Competitor 2 Case Study](https://casestudy.com) - Success metrics
+
+### Market Research
+6. [Product Hunt Launch Data](https://producthunt.com/research) - Launch statistics
+7. [Hacker News Traffic Stats](https://example.com/hn-stats) - Traffic benchmarks
+8. [Industry Report](https://example.com/report) - Market size data
+9. [Pricing Research](https://example.com/pricing-analysis) - Competitor pricing analysis
+10. [Customer Reviews](https://g2.com/product) - User feedback and pain points
+
+### Technical Resources
+11. [GitHub API Documentation](https://docs.github.com/api) - Technical implementation
+12. [Claude API Documentation](https://docs.anthropic.com/claude/reference) - AI integration
+13. [Similar Implementation](https://github.com/example/repo) - Open source reference
+14. [Framework Documentation](https://framework.dev/docs) - Tech stack docs
+
+### Revenue Benchmarks
+15. [Similar Product Revenue](https://indiehackers.com/product) - Indie Hackers profile
+16. [SaaS Metrics Study](https://example.com/saas-metrics) - Industry benchmarks
+17. [Conversion Rate Data](https://example.com/conversion-rates) - Funnel metrics
+18. [Churn Analysis](https://example.com/churn-study) - Retention data
+
+---
+
+**Assessment Completed:** [YYYY-MM-DD]
+**Next:** [Specific next action]
+**Status:** [Summary assessment]
 ```
 
 ---

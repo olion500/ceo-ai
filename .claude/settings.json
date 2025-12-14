@@ -16,6 +16,10 @@
     ],
     "defaultMode": "acceptEdits"
   },
+  "statusLine": {
+    "type": "command",
+    "command": "input=$(cat); current_tokens=$(echo \"$input\" | jq -r '.token_usage.current // 0'); weekly_used=$(echo \"$input\" | jq -r '.token_usage.weekly_used // 0'); weekly_limit=$(echo \"$input\" | jq -r '.token_usage.weekly_limit // 200000'); weekly_percent=$(awk \"BEGIN {printf \\\"%.1f\\\", ($weekly_used / $weekly_limit) * 100}\"); current_fmt=$([ $current_tokens -ge 1000 ] && awk \"BEGIN {printf \\\"%.1fK\\\", $current_tokens / 1000}\" || echo $current_tokens); weekly_fmt=$([ $weekly_used -ge 1000 ] && awk \"BEGIN {printf \\\"%.1fK\\\", $weekly_used / 1000}\" || echo $weekly_used); limit_fmt=$([ $weekly_limit -ge 1000 ] && awk \"BEGIN {printf \\\"%.1fK\\\", $weekly_limit / 1000}\" || echo $weekly_limit); dir=$(echo \"$input\" | jq -r '.workspace.current_dir // .cwd'); model=$(echo \"$input\" | jq -r '.model.display_name // .model.id'); style=$(echo \"$input\" | jq -r '.output_style.name // \"default\"'); branch=$(git branch --show-current 2>/dev/null || echo ''); time=$(date \"+%H:%M:%S\"); printf \"\\033[2m%s\\033[0m %s%s | %s | tokens: %s/%s (\\033[2m%s%% weekly\\033[0m) | %s\" \"$time\" \"$(basename \\\"$dir\\\")\" \"$([ -n \\\"$branch\\\" ] && echo \\\" [$branch]\\\" || echo \\\"\\\")\" \"$model\" \"$current_fmt\" \"$limit_fmt\" \"$weekly_percent\" \"$style\""
+  },
   "hooks": {
     "UserPromptSubmit": [
       {
