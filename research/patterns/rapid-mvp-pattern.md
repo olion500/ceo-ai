@@ -1,3 +1,11 @@
+---
+title: 패턴: Rapid MVP (빠른 최소 기능 제품)
+created: 2025-12-16
+updated: 2025-12-16
+tags: [pattern]
+category: Research
+type: Pattern
+---
 # 패턴: Rapid MVP (빠른 최소 기능 제품)
 
 **출현 빈도:** 12/13 사례 (92%)

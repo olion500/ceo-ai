@@ -1,3 +1,11 @@
+---
+title: Validate Before Build
+created: 2025-12-16
+updated: 2025-12-16
+tags: [pattern]
+category: Research
+type: Pattern
+---
 # Validate Before Build
 
 **Category:** common

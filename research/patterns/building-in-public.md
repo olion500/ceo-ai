@@ -1,3 +1,11 @@
+---
+title: 패턴: Building in Public (공개 빌딩)
+created: 2025-12-16
+updated: 2025-12-16
+tags: [pattern]
+category: Research
+type: Pattern
+---
 # 패턴: Building in Public (공개 빌딩)
 
 **출현 빈도:** 10/13 사례 (77%)

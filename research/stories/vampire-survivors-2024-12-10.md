@@ -1,3 +1,11 @@
+---
+title: Vampire Survivors Success Story
+created: 2024-12-10
+updated: 2024-12-10
+tags: [success-story]
+category: Research
+type: Success Story
+---
 # Vampire Survivors Success Story
 
 **Research Date:** 2024-12-10

@@ -1,3 +1,11 @@
+---
+title: Scratch Your Own Itch
+created: 2025-12-16
+updated: 2025-12-16
+tags: [pattern]
+category: Research
+type: Pattern
+---
 # Scratch Your Own Itch
 
 **Category:** idea-discovery

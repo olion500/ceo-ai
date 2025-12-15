@@ -1,3 +1,11 @@
+---
+title: Pat Walls - Pigeon for Gmail Success Story
+created: 2024-12-14
+updated: 2024-12-14
+tags: [success-story]
+category: Research
+type: Success Story
+---
 # Pat Walls - Pigeon for Gmail Success Story
 
 **Research Date:** 2024-12-14

@@ -1,3 +1,11 @@
+---
+title: SaaSBoard
+created: 2024-12-15
+updated: 2024-12-15
+tags: [idea]
+category: Research
+type: Business Idea
+---
 # SaaSBoard
 
 **Generated Date:** 2024-12-15

@@ -1,3 +1,11 @@
+---
+title: TypingMind by Tony Dinh Success Story
+created: 2024-12-14
+updated: 2024-12-14
+tags: [success-story]
+category: Research
+type: Success Story
+---
 # TypingMind by Tony Dinh Success Story
 
 **Research Date:** 2024-12-14

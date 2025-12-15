@@ -1,3 +1,11 @@
+---
+title: Building in Public on Twitter
+created: 2025-12-16
+updated: 2025-12-16
+tags: [pattern]
+category: Research
+type: Pattern
+---
 # Building in Public on Twitter
 
 **Category:** customer-acquisition

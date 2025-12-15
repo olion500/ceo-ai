@@ -1,3 +1,11 @@
+---
+title: Lightning-Fast Shipping
+created: 2025-12-16
+updated: 2025-12-16
+tags: [pattern]
+category: Research
+type: Pattern
+---
 # Lightning-Fast Shipping
 
 **Category:** mvp-building

@@ -1,3 +1,8 @@
+---
+title: Research Directory
+created: 2025-12-16
+updated: 2025-12-16
+---
 # Research Directory
 
 success-story-researcher skill이 수집한 성공 스토리와 분석 자료를 저장하는 곳입니다.

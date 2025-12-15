@@ -1,3 +1,11 @@
+---
+title: Feasibility Report: TweetCRM
+created: 2024-12-15
+updated: 2024-12-15
+tags: [feasibility, idea]
+category: Research
+type: Feasibility Analysis
+---
 # Feasibility Report: TweetCRM
 
 **Generated Date:** 2024-12-15

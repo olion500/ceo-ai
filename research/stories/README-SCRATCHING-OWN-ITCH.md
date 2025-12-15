@@ -1,3 +1,11 @@
+---
+title: 개발자가 자기 문제를 해결하고 수익화한 사례 모음 (2024)
+created: 2025-12-16
+updated: 2025-12-16
+tags: [success-story]
+category: Research
+type: Success Story
+---
 # 개발자가 자기 문제를 해결하고 수익화한 사례 모음 (2024)
 
 **조사 날짜:** 2024-12-14  

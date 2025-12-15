@@ -1,3 +1,11 @@
+---
+title: Justin Jackson - Transistor.fm Success Story
+created: 2024-12-14
+updated: 2024-12-14
+tags: [success-story]
+category: Research
+type: Success Story
+---
 # Justin Jackson - Transistor.fm Success Story
 
 **Research Date:** 2024-12-14

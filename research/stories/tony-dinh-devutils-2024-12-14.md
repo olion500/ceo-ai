@@ -1,3 +1,11 @@
+---
+title: Tony Dinh - DevUtils, Xnapper, Typing Mind Success Story
+created: 2024-12-14
+updated: 2024-12-14
+tags: [success-story]
+category: Research
+type: Success Story
+---
 # Tony Dinh - DevUtils, Xnapper, Typing Mind Success Story
 
 **Research Date:** 2024-12-14

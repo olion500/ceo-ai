@@ -1,3 +1,11 @@
+---
+title: Feasibility Report: ScreenFlow
+created: 2024-12-15
+updated: 2024-12-15
+tags: [feasibility, idea]
+category: Research
+type: Feasibility Analysis
+---
 # Feasibility Report: ScreenFlow
 
 **Generated Date:** 2024-12-15

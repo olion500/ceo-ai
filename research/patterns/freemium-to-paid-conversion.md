@@ -1,3 +1,11 @@
+---
+title: 패턴: Freemium to Paid Conversion
+created: 2025-12-16
+updated: 2025-12-16
+tags: [pattern]
+category: Research
+type: Pattern
+---
 # 패턴: Freemium to Paid Conversion
 
 **출현 빈도:** 8/13 사례 (62%)

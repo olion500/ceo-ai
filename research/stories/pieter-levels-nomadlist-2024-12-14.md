@@ -1,3 +1,11 @@
+---
+title: Pieter Levels - Nomad List & Portfolio Success Story
+created: 2024-12-14
+updated: 2024-12-14
+tags: [success-story]
+category: Research
+type: Success Story
+---
 # Pieter Levels - Nomad List & Portfolio Success Story
 
 **Research Date:** 2024-12-14

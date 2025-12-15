@@ -1,3 +1,11 @@
+---
+title: Ship in One Week (or Less)
+created: 2025-12-16
+updated: 2025-12-16
+tags: [pattern]
+category: Research
+type: Pattern
+---
 # Ship in One Week (or Less)
 
 **Category:** mvp-building

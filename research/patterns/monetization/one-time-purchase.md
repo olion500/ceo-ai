@@ -1,3 +1,11 @@
+---
+title: One-Time Purchase Model
+created: 2025-12-16
+updated: 2025-12-16
+tags: [pattern]
+category: Research
+type: Pattern
+---
 # One-Time Purchase Model
 
 **Category:** monetization

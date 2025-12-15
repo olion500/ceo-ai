@@ -1,3 +1,11 @@
+---
+title: Additional Simple Web Service/App Success Stories (2022-2024)
+created: 2024-12-14
+updated: 2024-12-14
+tags: [success-story]
+category: Research
+type: Success Story
+---
 # Additional Simple Web Service/App Success Stories (2022-2024)
 
 **Research Date:** 2024-12-14

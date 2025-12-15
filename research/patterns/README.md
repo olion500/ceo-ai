@@ -1,3 +1,11 @@
+---
+title: Success Pattern Library
+created: 2025-12-16
+updated: 2025-12-16
+tags: [pattern]
+category: Research
+type: Pattern
+---
 # Success Pattern Library
 
 이 디렉토리는 성공한 인디 개발자와 소규모 팀의 사업에서 추출한 재현 가능한 패턴들을 저장합니다.

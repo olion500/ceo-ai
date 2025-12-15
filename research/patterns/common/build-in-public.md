@@ -1,3 +1,11 @@
+---
+title: Build in Public
+created: 2025-12-16
+updated: 2025-12-16
+tags: [pattern]
+category: Research
+type: Pattern
+---
 # Build in Public
 
 **Category:** common

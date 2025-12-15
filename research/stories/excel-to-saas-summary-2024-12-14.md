@@ -1,3 +1,11 @@
+---
+title: Excel-to-SaaS Success Stories Summary
+created: 2024-12-14
+updated: 2024-12-14
+tags: [success-story]
+category: Research
+type: Success Story
+---
 # Excel-to-SaaS Success Stories Summary
 
 **Research Date:** 2024-12-14

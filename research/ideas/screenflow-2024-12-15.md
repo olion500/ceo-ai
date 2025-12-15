@@ -1,3 +1,11 @@
+---
+title: ScreenFlow
+created: 2024-12-15
+updated: 2024-12-15
+tags: [idea]
+category: Research
+type: Business Idea
+---
 # ScreenFlow
 
 **Generated Date:** 2024-12-15
