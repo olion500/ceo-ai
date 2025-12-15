@@ -819,5 +819,6 @@ With table:
 **Next Steps After Finding Ideas**:
 1. ✅ **DONE AUTOMATICALLY**: Ideas saved to `research/ideas/`
 2. ✅ **DONE AUTOMATICALLY**: Feasibility check run for each idea
-3. **MANUAL**: Talk to 10 potential customers before building
-4. **MANUAL**: Ship MVP in 1-7 days, iterate based on feedback
+3. ✅ **Format all generated markdown files** using markdown-formatter skill (MANDATORY)
+4. **MANUAL**: Talk to 10 potential customers before building
+5. **MANUAL**: Ship MVP in 1-7 days, iterate based on feedback

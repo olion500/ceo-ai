@@ -1454,9 +1454,10 @@ Other skills use these records for analysis:
 1. ✅ DOCUMENT findings in maximum detail (MANDATORY)
 2. ✅ Include all source links with context (MANDATORY)
 3. ✅ Save to research/stories/[product]-[date].md (MANDATORY)
-4. Then use success-formula-analyzer to extract patterns
-5. Then use business-idea-evaluator to apply insights
-6. Then use feasibility-checker to validate tactics
-7. Then use business-orchestrator for integrated plan
+4. ✅ Format the markdown file using markdown-formatter skill (MANDATORY)
+5. Then use success-formula-analyzer to extract patterns
+6. Then use business-idea-evaluator to apply insights
+7. Then use feasibility-checker to validate tactics
+8. Then use business-orchestrator for integrated plan
 
 **Skill Purpose:** Detailed documentation, NOT analysis ✅

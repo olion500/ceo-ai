@@ -578,6 +578,7 @@ Always maintain ranking within each pattern file based on evidence.
 ---
 
 **Next Steps After Analysis:**
-1. Use business-idea-evaluator to score your adapted formula
-2. Use feasibility-checker to validate execution capability
-3. Use business-orchestrator to create comprehensive action plan
+1. ✅ Format all generated markdown files using markdown-formatter skill (MANDATORY)
+2. Use business-idea-evaluator to score your adapted formula
+3. Use feasibility-checker to validate execution capability
+4. Use business-orchestrator to create comprehensive action plan

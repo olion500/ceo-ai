@@ -37,134 +37,6 @@ Skills are modular knowledge bases that Claude loads when needed. They provide:
 
 ---
 
-### backend-dev-guidelines
-**Purpose:** Node.js/Express/TypeScript development patterns
-
-**Files:** 12 resource files (304 lines main + resources)
-
-**Covers:**
-- Layered architecture (Routes → Controllers → Services → Repositories)
-- BaseController pattern
-- Prisma database access
-- Sentry error tracking
-- Zod validation
-- UnifiedConfig pattern
-- Dependency injection
-- Testing strategies
-
-**Use when:**
-- Creating/modifying API routes
-- Building controllers or services
-- Database operations with Prisma
-- Setting up error tracking
-
-**Customization:** ⚠️ Update `pathPatterns` in skill-rules.json to match your backend directories
-
-**Example pathPatterns:**
-```json
-{
-  "pathPatterns": [
-    "src/api/**/*.ts",       // Single app with src/api
-    "backend/**/*.ts",       // Backend directory
-    "services/*/src/**/*.ts" // Multi-service monorepo
-  ]
-}
-```
-
-**[View Skill →](backend-dev-guidelines/)**
-
----
-
-### frontend-dev-guidelines
-**Purpose:** React/TypeScript/MUI v7 development patterns
-
-**Files:** 11 resource files (398 lines main + resources)
-
-**Covers:**
-- Modern React patterns (Suspense, lazy loading)
-- useSuspenseQuery for data fetching
-- MUI v7 styling (Grid with `size={{}}` prop)
-- TanStack Router
-- File organization (features/ pattern)
-- Performance optimization
-- TypeScript best practices
-
-**Use when:**
-- Creating React components
-- Fetching data with TanStack Query
-- Styling with MUI v7
-- Setting up routing
-
-**Customization:** ⚠️ Update `pathPatterns` + verify you use React/MUI
-
-**Example pathPatterns:**
-```json
-{
-  "pathPatterns": [
-    "src/**/*.tsx",          // Single React app
-    "frontend/src/**/*.tsx", // Frontend directory
-    "apps/web/**/*.tsx"      // Monorepo web app
-  ]
-}
-```
-
-**Note:** This skill is configured as a **guardrail** (enforcement: "block") to prevent MUI v6→v7 incompatibilities.
-
-**[View Skill →](frontend-dev-guidelines/)**
-
----
-
-### route-tester
-**Purpose:** Testing authenticated API routes with JWT cookie auth
-
-**Files:** 1 main file (389 lines)
-
-**Covers:**
-- JWT cookie-based authentication testing
-- test-auth-route.js script patterns
-- cURL with cookie authentication
-- Debugging auth issues
-- Testing POST/PUT/DELETE operations
-
-**Use when:**
-- Testing API endpoints
-- Debugging authentication
-- Validating route functionality
-
-**Customization:** ⚠️ Requires JWT cookie auth setup
-
-**Ask first:** "Do you use JWT cookie-based authentication?"
-- If YES: Copy and customize service URLs
-- If NO: Skip or adapt for your auth method
-
-**[View Skill →](route-tester/)**
-
----
-
-### error-tracking
-**Purpose:** Sentry error tracking and monitoring patterns
-
-**Files:** 1 main file (~250 lines)
-
-**Covers:**
-- Sentry v8 initialization
-- Error capture patterns
-- Breadcrumbs and user context
-- Performance monitoring
-- Integration with Express and React
-
-**Use when:**
-- Setting up error tracking
-- Capturing exceptions
-- Adding error context
-- Debugging production issues
-
-**Customization:** ⚠️ Update `pathPatterns` for your backend
-
-**[View Skill →](error-tracking/)**
-
----
-
 ## How to Add a Skill to Your Project
 
 ### Quick Integration
@@ -358,6 +230,46 @@ Update skill-rules.json:
 
 ---
 
+## Documentation Skills
+
+### markdown-formatter
+**Purpose:** 마크다운 문서를 자동으로 포맷팅하고 정리
+
+**Use when:**
+- "마크다운 정리해줘"
+- "format this markdown"
+- "문서 포맷팅"
+- "markdown cleanup"
+
+**5-Step Workflow:**
+1. **rumdl lint check** - 57개 lint 규칙으로 자동 수정
+2. **Obsidian frontmatter** - YAML 메타데이터 추가
+3. **Link conversion** - Wiki-style → Markdown links
+4. **Deduplication** - 중복 콘텐츠 제거
+5. **Readability** - 가독성 best practices 적용
+
+**Features:**
+- ✅ Auto-fix lint errors (MD001-MD053)
+- ✅ Document-type frontmatter templates (10+ types)
+- ✅ Wiki/bare URL → markdown link conversion
+- ✅ Duplicate detection algorithms
+- ✅ Complete readability guidelines (794 lines)
+
+**Reference Files:**
+- [READABILITY_GUIDE.md](markdown-formatter/resources/READABILITY_GUIDE.md) - 완전한 가독성 가이드
+- [RUMDL_RULES.md](markdown-formatter/resources/RUMDL_RULES.md) - 57개 lint 규칙 설명
+- [FRONTMATTER_TEMPLATES.md](markdown-formatter/resources/FRONTMATTER_TEMPLATES.md) - 문서 타입별 템플릿
+- [LINK_CONVERSION.md](markdown-formatter/resources/LINK_CONVERSION.md) - 링크 변환 패턴
+- [DEDUPLICATION_STRATEGIES.md](markdown-formatter/resources/DEDUPLICATION_STRATEGIES.md) - 중복 제거 전략
+
+**Integration:**
+- VS Code, GitHub Actions, Pre-commit hook 예제 포함
+- Research 파일 생성 후 자동 실행 (success-story-researcher, success-formula-analyzer 등)
+
+**[View Skill →](markdown-formatter/)**
+
+---
+
 ## Business Analysis Skills (CEO AI)
 
 ### 🎯 Multi-Agent Business Analysis System
@@ -507,6 +419,38 @@ Update skill-rules.json:
 - Success metrics & Kill criteria
 
 **[View Skill →](business-orchestrator/)**
+
+---
+
+### idea-finder
+**Purpose:** 성공 패턴을 적용하여 새로운 비즈니스 아이디어 생성
+
+**Use when:**
+- "비즈니스 아이디어 찾아줘"
+- "뭘 만들면 좋을까"
+- "startup idea generation"
+- "사업 아이템 추천"
+
+**Method:**
+1. **Analyze patterns** in `research/patterns/`
+2. **Apply success formulas** to find market gaps
+3. **Generate 3-10 ideas** with complete validation
+4. **Auto-run feasibility check** for each idea
+5. **Save to** `research/ideas/[idea-name]-[date].md`
+
+**Outputs:**
+- 각 아이디어별 상세 분석 파일
+- Feasibility 점수 (자동 계산)
+- 적용된 성공 패턴 매핑
+- 실행 가능성 검증
+
+**Key Features:**
+- "Scratch your own itch" methodology
+- Data-driven idea selection
+- Market gap analysis
+- Success pattern → New idea mapping
+
+**[View Skill →](idea-finder/)**
 
 ---
 

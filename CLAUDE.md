@@ -48,7 +48,8 @@ Each agent is a Claude Code skill located in `.claude/skills/[agent-name]/SKILL.
 **Skills** (`.claude/skills/`):
 - Each skill has a main `SKILL.md` and optional `resources/` directory
 - Skills auto-activate based on keywords/intent patterns defined in `skill-rules.json`
-- Business analysis skills: `success-story-researcher`, `success-formula-analyzer`, `business-idea-evaluator`, `feasibility-checker`, `business-orchestrator`
+- Business analysis skills: `success-story-researcher`, `success-formula-analyzer`, `business-idea-evaluator`, `feasibility-checker`, `business-orchestrator`, `idea-finder`
+- Documentation skills: `markdown-formatter`
 - Development skills: `backend-dev-guidelines`, `frontend-dev-guidelines`, `route-tester`, `error-tracking`, `skill-developer`
 
 **Data Storage** (`research/`):
@@ -128,6 +129,23 @@ User: "간단한 웹툴 성공 사례 10개 찾아줘"
   - GO/ITERATE/NO-GO recommendation
   - 4-phase action plan
   - Risk analysis and mitigation strategies
+
+### Format and Clean Markdown Documents
+
+```
+"이 마크다운 파일 정리해줘"
+or
+"format this markdown document and clean it up"
+```
+- Activates `markdown-formatter` skill
+- Applies 5-step workflow:
+  1. Run rumdl lint check and auto-fix
+  2. Add Obsidian-style frontmatter metadata
+  3. Convert internal links (wiki-style → markdown)
+  4. Remove duplicate content
+  5. Apply readability best practices
+- **Auto-triggered** after creating research files
+- Ensures all markdown files follow consistent formatting
 
 ## File Organization
 
