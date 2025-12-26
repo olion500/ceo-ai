@@ -1,35 +1,20 @@
 ---
 title: Pat Walls - Pigeon for Gmail Success Story
-created: 2024-12-14
-updated: 2024-12-14
-tags: [success-story]
-category: Research
+research-date: 2024-12-14
+category: SaaS / Gmail Tool / CRM
+tags: ['success-story', 'saas', 'ai']
 type: Success Story
+status: Active
+product: Pigeon for Gmail
+founder: Pat Walls
+revenue-range: $1,000+ MRR
+current-revenue: $1,000+ MRR
+team-size: Solo founder
+funding: Bootstrapped
 ---
+
 # Pat Walls - Pigeon for Gmail Success Story
 
-**Research Date:** 2024-12-14
-**Category:** SaaS / Gmail Tool / CRM
-**Revenue Range:** $1,000+ MRR
-**Team Size:** Solo founder
-**Status:** Active
-
----
-
-## Quick Facts
-
-| Metric | Value |
-|--------|-------|
-| **Founder** | Pat Walls |
-| **Product** | Pigeon for Gmail |
-| **Type** | Chrome extension / Gmail CRM |
-| **Current Revenue** | $1,000+ MRR |
-| **Paying Customers** | ~40 at $1K MRR |
-| **Team Size** | 1 (Solo founder) |
-| **Funding** | Bootstrapped |
-| **Other Product** | Starter Story (built to profitability, quit full-time job) |
-
----
 
 ## The "Built for Myself" Story
 
@@ -48,8 +33,6 @@ type: Success Story
 **The Insight:**
 As entrepreneur running Starter Story, Pat needed better email management but didn't want to leave Gmail for separate CRM tools.
 
----
-
 ## What Pigeon Does
 
 **Product Description:**
@@ -66,8 +49,6 @@ As entrepreneur running Starter Story, Pat needed better email management but di
 - CRM functionality
 - Scales with user needs
 - Streamlines mundane tasks
-
----
 
 ## The Journey to $1,000 MRR
 
@@ -107,8 +88,6 @@ As entrepreneur running Starter Story, Pat needed better email management but di
 - ✅ Made personal relationships with customers
 - ✅ Validated problem-solution fit
 
----
-
 ## Pat Walls Background
 
 ### Founder of Starter Story
@@ -124,8 +103,6 @@ As entrepreneur running Starter Story, Pat needed better email management but di
 - Understands indie hacking
 - Technical background (engineering)
 - Experienced entrepreneur
-
----
 
 ## Product Market Fit
 
@@ -143,8 +120,6 @@ As entrepreneur running Starter Story, Pat needed better email management but di
 - Low friction (Chrome extension)
 - Familiar interface (inside Gmail)
 - Addresses actual workflow problem
-
----
 
 ## Key Lessons from Pat
 
@@ -175,8 +150,6 @@ As entrepreneur running Starter Story, Pat needed better email management but di
 - Requires persistence
 - Different products = different challenges
 
----
-
 ## Solving Own Problem → Product
 
 ### The Classic Indie Hacker Path
@@ -195,8 +168,6 @@ As entrepreneur running Starter Story, Pat needed better email management but di
 - Used own product (dogfooding)
 - Understood customer because he was customer
 
----
-
 ## Business Model
 
 **Pricing Structure:**
@@ -208,8 +179,6 @@ As entrepreneur running Starter Story, Pat needed better email management but di
 - $1,000+ MRR milestone reached
 - 40+ paying customers
 - Slow but steady growth
-
----
 
 ## Pat's Entrepreneur Journey
 
@@ -232,8 +201,6 @@ Current:    Running both Starter Story and Pigeon
 - Pigeon (SaaS/Gmail tool)
 - Different business models
 - Diversified revenue streams
-
----
 
 ## Key Takeaways
 
@@ -258,8 +225,6 @@ Current:    Running both Starter Story and Pigeon
    - Pat's own email pain = product opportunity
    - Dogfooding ensures product quality
    - Authentic understanding of customer needs
-
----
 
 ## Sources
 

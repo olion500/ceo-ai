@@ -1,19 +1,13 @@
 ---
-title: Feasibility Report: TweetCRM
-created: 2024-12-15
-updated: 2024-12-15
-tags: [feasibility, idea]
-category: Research
+title: TweetCRM Feasibility Check
+analysis-date: 2024-12-15
 type: Feasibility Analysis
+feasibility-score: 7.8
+can-build: Yes
+estimated-effort: 7-10 days
+tags: [feasibility, twitter-crm, social-media, dm-management]
 ---
 # Feasibility Report: TweetCRM
-
-**Generated Date:** 2024-12-15
-**Idea Score:** 7.5/10
-**Feasibility Score:** 7.8/10
-**Final Recommendation:** VALIDATE MORE (customer interviews first, then build as 2nd-3rd project)
-
----
 
 ## Executive Summary
 

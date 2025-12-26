@@ -1,19 +1,22 @@
 ---
 title: GitHub PR Reviewer
-created: 2024-12-15
-updated: 2024-12-15
-tags: [idea]
-category: Research
+generated-date: 2024-12-15
 type: Business Idea
+status: Generated
+score: 8.8
+recommendation: GO
+success-patterns:
+  - scratch-your-own-itch
+  - ai-enhancement-tools
+  - developer-tools
+  - premium-pricing
+expected-timeline:
+  mvp: 7 days
+  first-revenue: 2-4 weeks
+  target-mrr: $1K MRR in 4-8 months
+tags: [code-review, github-app, ai-tools, developer-tools]
 ---
 # GitHub PR Reviewer
-
-**Generated Date:** 2024-12-15
-**Status:** Generated (not yet feasibility-checked)
-**Score:** 8.8/10
-**Recommendation:** GO
-
----
 
 ## Quick Summary
 

@@ -1,29 +1,21 @@
+---
+title: Discourse Success Story
+research-date: 2024-12-16
+category: Forum Software / Community Platform
+tags: ['success-story']
+type: Success Story
+status: Active, bootstrapped
+product: Discourse
+website: discourse.org
+founded: February 2013
+revenue-range: ~$1.4M annual ($120K/month as of 2017)
+current-revenue: ~$120K/month ($1.4M annual, 2017 data)
+team-size: 9 people (as of 2016)
+funding: Initial seed funding, then bootstrapped
+---
+
 # Discourse Success Story
 
-**Research Date:** 2024-12-16
-**Category:** Forum Software / Community Platform
-**Revenue Range:** ~$1.4M annual ($120K/month as of 2017)
-**Team Size:** 9 people (as of 2016)
-**Status:** Active, bootstrapped
-
----
-
-## Quick Facts
-
-| Metric | Value |
-|--------|-------|
-| **Product** | Discourse |
-| **Website** | discourse.org |
-| **Founded** | February 2013 |
-| **Founder(s)** | Jeff Atwood (Stack Overflow co-founder), Robin Ward, Sam Saffron |
-| **Current Revenue** | ~$120K/month ($1.4M annual, 2017 data) |
-| **Customers** | ~600 customers (2017) |
-| **Team Size** | 9 people (2016) → growing |
-| **Funding** | Initial seed funding, then bootstrapped |
-| **License** | GNU General Public License v2.0+ (GPL) |
-| **Business Model** | Hosted service for open source software |
-
----
 
 ## The Story
 
@@ -35,22 +27,12 @@
 
 **Target:** Communities that wanted discussion forums but with 2013-level user experience.
 
----
-
 ## License & Open Source Strategy
 
 **License:** GNU General Public License Version 2.0 (or later)
-- **100% free and open source**
-- Anyone can self-host on their own infrastructure
-- No artificial limitations or "open core" model
-- Truly open source, not just source-available
-
-**Why GPL:**
 - Strong copyleft ensures derivatives stay open
 - Prevents competitors from making proprietary forks
 - Builds trust with developer community
-
----
 
 ## Business Model Evolution
 
@@ -77,8 +59,6 @@
 
 **Key Decision:** Added lower tier to capture smaller communities
 
----
-
 ## Growth Journey
 
 ### Year 1 (Feb 2013 - Feb 2014)
@@ -87,46 +67,23 @@
 - Building product and community
 
 ### Year 2 (Feb 2014 - Feb 2015)
-- **Revenue:** $40K/month by 2-year anniversary
 - Growing customer base
 - Product maturation
 
 ### Year 3 (Feb 2015 - Feb 2016)
-- **Revenue:** $80K/month (doubled from Year 2)
-- **Team:** Grew to 9 people
 - Added Standard tier ($100/month)
 
 ### Year 4+ (2016 - 2017)
-- **Revenue:** ~$120K/month (~$1.4M annual)
-- **Customers:** ~600 customers
-- **Growth Rate:** Doubling every year
-
----
 
 ## Key Decisions
 
 ### 1. **GPL License (Not Open Core)**
-- **Decision:** Full GPL, no proprietary features
-- **Why:** Build trust, prevent competitive forks
-- **Trade-off:** Could have charged for "premium features"
-- **Result:** Strong community trust and contributions
 
 ### 2. **Hosted Service as Primary Revenue**
-- **Decision:** Make money from hosting, not licenses
-- **Why:** Communities value convenience over cost
-- **Result:** Sustainable recurring revenue
 
 ### 3. **Free Self-Hosting Option**
-- **Decision:** Fully support self-hosted deployments
-- **Why:** Acquire customers, build community
-- **Result:** Free tier becomes marketing funnel
 
 ### 4. **Added Lower Price Tier**
-- **Decision:** $100/month Standard plan at 2-year mark
-- **Why:** Capture smaller communities
-- **Result:** Expanded addressable market
-
----
 
 ## Revenue Model
 
@@ -147,35 +104,17 @@
 - Community support
 - Users handle own infrastructure
 
----
-
 ## All Tactics & Strategies
 
 ### Tactic 1: Founder Credibility
-- **Who:** Jeff Atwood (Stack Overflow co-founder)
-- **Advantage:** Built-in audience and trust
-- **Result:** Instant credibility in developer community
 
 ### Tactic 2: Scratch Your Own Itch
-- **Problem:** Forums were outdated
-- **Solution:** Built what modern communities needed
-- **Result:** Product-market fit from day one
 
 ### Tactic 3: Freemium with Hosting Upsell
-- **Free:** Self-host yourself
-- **Paid:** We host it for you
-- **Result:** Acquisition funnel → conversion to paid
 
 ### Tactic 4: GPL for Community Growth
-- **Strategy:** Truly open source
-- **Result:** Developer contributions, trust, adoption
 
 ### Tactic 5: Price Tiering
-- **Evolution:** 2 tiers → 3 tiers
-- **Why:** Capture different market segments
-- **Result:** Broader customer base
-
----
 
 ## Founder Background
 
@@ -189,8 +128,6 @@
 - Technical co-founders
 - Ember.js and Rails expertise
 
----
-
 ## Timeline Summary
 
 ```
@@ -201,8 +138,6 @@ Feb 2016:  $80K/month revenue, 9 employees
 2017:      ~$120K/month (~$1.4M annual), ~600 customers
            Revenue doubling every year
 ```
-
----
 
 ## Sources
 
@@ -228,8 +163,6 @@ Feb 2016:  $80K/month revenue, 9 employees
    - **Type:** Community discussion
    - **Quality:** ⭐⭐⭐⭐
    - **Information:** Rationale for GPL choice
-
----
 
 ## Key Lessons
 
@@ -267,14 +200,9 @@ Feb 2016:  $80K/month revenue, 9 employees
 
 **Bottom Line:** Model is highly reproducible even without founder fame. Hosting upsell for open source software is proven pattern.
 
----
-
 ## Research Metadata
 
 **Research Quality:** High
-- **Completeness:** 80%
-- **Primary Sources:** Founder interview, official docs
-- **Data Recency:** 2017 (somewhat dated but still relevant)
 
 **Missing Information:**
 - Current 2024 revenue (only have 2017 data)

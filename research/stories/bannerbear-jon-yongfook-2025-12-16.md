@@ -1,16 +1,15 @@
+---
+title: Jon Yongfook - Bannerbear Success Story
+research-date: 2025-12-16
+category: Developer Tool SaaS
+tags: ['success-story', 'saas']
+type: Success Story
+revenue-range: $50K MRR
+team-size: Indie hacker
+---
+
 # Jon Yongfook - Bannerbear Success Story
 
-**Research Date:** 2025-12-16
-**Category:** Developer Tool SaaS
-**Revenue Range:** $50K MRR
-
-## Quick Facts
-
-- **Founder:** Jon Yongfook (@yongfook)
-- **Product:** Bannerbear - Auto-generate images & videos via API
-- **Timeline:** 2019 시작 → 2년 만에 $10K MRR → 2023년 $50K MRR
-- **Current MRR:** $50K (November 2023)
-- **Team Size:** Indie hacker
 - **Open Startup:** 모든 지표 공개
 
 ## The Story
@@ -21,7 +20,6 @@ Jon Yongfook은 이전에 여러 SaaS 제품을 만든 경험이 있는 개발�
 
 ### Slow but Steady Growth (2019-2021)
 
-- **2019-2021:** 출시 후 2년 동안 $10K MRR 달성까지 긴 여정
 - 개발자 도구 특성상 바이럴 성장보다는 점진적 성장
 - 제품-시장 적합성 찾는 데 시간 투자
 
@@ -56,7 +54,6 @@ Jon Yongfook은 이전에 여러 SaaS 제품을 만든 경험이 있는 개발�
 
 ### 3. SaaS Pricing Optimization
 
-- **가격대:** $49 - $399/month
 - Enterprise 고객을 위한 고가 플랜
 - 다양한 사용 케이스에 맞는 티어링
 - 가격 실험으로 최적화
@@ -91,16 +88,10 @@ Jon Yongfook은 이전에 여러 SaaS 제품을 만든 경험이 있는 개발�
 
 ## Key Metrics
 
-- **Current MRR:** $50K (November 2023)
-- **Growth Timeline:**
   - 2019-2021: 0 → $10K MRR (2년)
   - May 2021: $16K MRR
   - Mid 2021: $19-20K MRR
   - Nov 2023: $50K MRR
-- **Subscribers:** 284 (at $20K MRR point)
-- **Pricing:** $49 - $399/month
-- **Operating Costs:** Few hundred $/month
-- **Target:** $1M ARR
 
 ## Why This Works
 
@@ -112,12 +103,6 @@ Jon Yongfook은 이전에 여러 SaaS 제품을 만든 경험이 있는 개발�
 6. **Community-Driven:** 커뮤니티가 마케팅 채널 역할
 
 ## Lessons Learned
-
-- **2년은 길지 않다:** $10K MRR까지 2년은 정상적
-- **투명성의 힘:** Open startup이 마케팅 도구
-- **개발자 도구는 느리게 성장:** 바이럴보다 점진적 성장 기대
-- **비용 관리 중요:** 높은 마진율이 생존 열쇠
-- **커뮤니티 가치:** Indie Hackers 같은 커뮤니티 활용
 
 ## Sources
 

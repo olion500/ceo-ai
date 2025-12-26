@@ -1,36 +1,22 @@
 ---
 title: Kyle Nolan - ProjectionLab Success Story
-created: 2024-12-14
-updated: 2024-12-14
-tags: [success-story]
-category: Research
+research-date: 2024-12-14
+category: SaaS / Financial Planning / FIRE Tool
+tags: ['success-story', 'saas']
 type: Success Story
+status: Active
+product: ProjectionLab
+website: projectionlab.com
+founder: Kyle Nolan
+founded: ~2021-2022
+revenue-range: $10,000+ MRR
+current-revenue: $10,000+ MRR
+team-size: Solo founder (Side project)
+funding: Bootstrapped
 ---
+
 # Kyle Nolan - ProjectionLab Success Story
 
-**Research Date:** 2024-12-14
-**Category:** SaaS / Financial Planning / FIRE Tool
-**Revenue Range:** $10,000+ MRR
-**Team Size:** Solo founder (Side project)
-**Status:** Active
-
----
-
-## Quick Facts
-
-| Metric | Value |
-|--------|-------|
-| **Founder** | Kyle Nolan |
-| **Product** | ProjectionLab |
-| **Website** | projectionlab.com |
-| **Founded** | ~2021-2022 |
-| **Current Revenue** | $10,000+ MRR |
-| **Team Size** | 1 (Solo, side project) |
-| **Funding** | Bootstrapped |
-| **Marketing** | ZERO marketing or SEO initially |
-| **Target Market** | FIRE (Financial Independence, Retire Early) community |
-
----
 
 ## The "Built for Myself" Story
 
@@ -51,8 +37,6 @@ type: Success Story
 
 Kyle built it for himself first, not expecting it would become a business.
 
----
-
 ## Growth Journey
 
 ### Timeline to $10K MRR
@@ -60,16 +44,8 @@ Kyle built it for himself first, not expecting it would become a business.
 **Total Time:** ~26 months (a little over 2 years)
 
 **Detailed Progression:**
-- **Months 0-9:** $0 → $1,000 MRR (9 months)
-- **Months 10-13:** $1,000 → $2,000 MRR (4 months)
-- **Months 14-20:** $2,000 → $5,000 MRR (7 months)
-- **Months 21-22:** $5,000 → $6,000 MRR (2 months)
-- **Months 23-24:** $6,000 → $8,500 MRR (2 months)
-- **Months 25-26:** $8,500 → $10,000 MRR (2 months)
 
 **Key Insight:** Growth accelerated over time - took 9 months to reach $1K MRR, but only 2 months to go from $8.5K to $10K MRR.
-
----
 
 ## The Side Project Reality
 
@@ -90,14 +66,8 @@ Kyle built it for himself first, not expecting it would become a business.
 ### Work Schedule
 
 **Average Week:**
-- **Weeknights:** 8pm to midnight (4 hours × 5 days = 20 hours)
-- **Weekends:** 10 hours per day × 2 days = 20 hours
-- **Total:** ~40 hours/week on ProjectionLab
-- **Plus:** Full-time day job
 
 **Reality:** Essentially working two full-time jobs for years.
-
----
 
 ## Product Development
 
@@ -126,8 +96,6 @@ Kyle built it for himself first, not expecting it would become a business.
 - +$200 MRR from launch
 - Initial validation and visibility
 
----
-
 ## Growth Strategy
 
 ### ZERO Marketing or SEO (Initially)
@@ -151,8 +119,6 @@ Kyle built it for himself first, not expecting it would become a business.
 - Likely added some content/SEO
 - Advisor tier added for expansion
 
----
-
 ## Business Model
 
 ### Pricing & Subscriptions
@@ -166,8 +132,6 @@ Kyle built it for himself first, not expecting it would become a business.
 **Revenue Streams:**
 1. Individual subscriptions (primary)
 2. Advisor tier (expansion)
-
----
 
 ## Key Success Factors
 
@@ -203,8 +167,6 @@ Kyle built it for himself first, not expecting it would become a business.
 - Didn't quit despite slow initial growth
 - Accelerated over time
 
----
-
 ## Lessons from ProjectionLab
 
 ### On Building for Yourself
@@ -236,8 +198,6 @@ Kyle built it for himself first, not expecting it would become a business.
 - Growth compounds over time
 - Don't quit in slow initial phase
 
----
-
 ## Timeline Summary
 
 ```
@@ -251,8 +211,6 @@ Month 24:   $8,500 MRR
 Month 26:   $10,000 MRR (milestone reached)
 Current:    Active, advisor tier added
 ```
-
----
 
 ## Sources
 

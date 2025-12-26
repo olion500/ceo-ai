@@ -2,35 +2,37 @@
 
 Use this template when documenting individual success stories in `research/stories/`.
 
+**IMPORTANT:** All success stories MUST use Obsidian properties (YAML frontmatter) format. This ensures:
+- Consistent metadata structure
+- Easy filtering and querying in Obsidian
+- No duplicate information between frontmatter and body
+- Better organization and searchability
+
 ## Template Structure
 
 ```markdown
+---
+title: [Product Name] Success Story
+research-date: YYYY-MM-DD
+category: [AI SaaS / Web App / Developer Tool / Marketplace / etc]
+tags: [success-story, relevant, tags, here]
+type: Success Story
+status: Active | Inactive | Acquired | Shut down
+product: [Product Name]
+website: [URL]
+founder: [Founder Name(s)]
+founder-handle: [Twitter/social handle if available]
+founded: YYYY-MM or YYYY
+revenue-range: [$X - $Y MRR]
+current-revenue: [$X MRR or $X ARR if different from range]
+team-size: [Solo | Solo → 2 | 2-5 | etc]
+funding: [Bootstrapped ($X) | $X raised | etc]
+time-to-first-revenue: [Launch day | X weeks | X months]
+time-to-10k-mrr: [X months | X years]
+users: [X paying customers | X active users]
+---
+
 # [Product Name] Success Story
-
-**Research Date:** [Today's date]
-**Category:** [SaaS / App / Tool / Marketplace / etc]
-**Revenue Range:** [$X - $Y MRR or ARR]
-**Team Size:** [Solo / 2-3 / 4-10 / etc]
-**Status:** [Active / Acquired / Shut down]
-
----
-
-## Quick Facts
-
-| Metric | Value |
-|--------|-------|
-| **Product** | [Name] |
-| **Website** | [URL] |
-| **Founded** | [Date] |
-| **Founder(s)** | [Name(s)] |
-| **Current Revenue** | [$X/month or $X/year] |
-| **Users/Customers** | [Number] |
-| **Team Size** | [Number] |
-| **Funding** | [Bootstrapped / $X raised] |
-| **Time to First Revenue** | [X months] |
-| **Time to $10K MRR** | [X months] |
-
----
 
 ## The Story
 

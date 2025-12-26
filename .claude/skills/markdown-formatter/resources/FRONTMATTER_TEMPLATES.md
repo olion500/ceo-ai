@@ -153,7 +153,9 @@ completed: false
 
 ## Research/Analysis
 
-**Use for**: Research notes, analysis documents, findings
+### General Research Document
+
+**Use for**: Generic research notes, analysis documents, findings
 
 ```yaml
 ---
@@ -176,6 +178,86 @@ conclusions:
   - Conclusion 1
 next_steps:
   - Action item 1
+---
+```
+
+### Success Story
+
+**Use for**: Documenting product success stories, founder journeys
+
+```yaml
+---
+title: [Product Name] Success Story
+research-date: YYYY-MM-DD
+category: [AI SaaS | Web App | Developer Tool | etc]
+tags: [success-story, relevant, tags]
+type: Success Story
+status: Active | Inactive | Acquired | Shut down
+product: [Product Name]
+website: [URL]
+founder: [Founder Name]
+founder-handle: [@handle]
+founded: YYYY-MM
+revenue-range: [$X - $Y MRR]
+current-revenue: [$X MRR]
+team-size: [Solo | Solo → 2 | etc]
+funding: [Bootstrapped ($X) | $X raised]
+time-to-first-revenue: [Launch day | X weeks]
+time-to-10k-mrr: [X months]
+users: [X paying customers]
+---
+```
+
+### Business Idea
+
+**Use for**: Business idea documentation and evaluation
+
+```yaml
+---
+title: [Idea Name]
+generated-date: YYYY-MM-DD
+type: Business Idea
+status: Generated | Validated | In Progress | Abandoned
+score: X.X
+recommendation: GO | ITERATE | VALIDATE MORE | NO-GO
+success-patterns: [pattern1, pattern2]
+expected-timeline:
+  mvp: [X days]
+  first-revenue: [X weeks]
+  target-mrr: [$XK MRR in X months]
+tags: [idea, category, tags]
+---
+```
+
+### Pattern
+
+**Use for**: Extracted success patterns
+
+```yaml
+---
+title: [Pattern Name]
+pattern-category: idea-discovery | validation | mvp-building | customer-acquisition | product-market-fit | growth | monetization | distribution | retention | differentiation | common
+success-rate: High | Medium | Low ([percentage]+)
+time-investment: Immediate | X days | X weeks
+difficulty: Easy | Medium | Hard
+tags: [pattern, category-name]
+type: Pattern
+---
+```
+
+### Pattern Analysis Report
+
+**Use for**: Multi-story pattern analysis reports
+
+```yaml
+---
+title: [Report Title]
+analysis-date: YYYY-MM-DD
+type: Pattern Analysis Report
+stories-analyzed: [number]
+deep-dive-count: [number]
+data-source: [URL or description]
+tags: [report, pattern-analysis, tags]
 ---
 ```
 

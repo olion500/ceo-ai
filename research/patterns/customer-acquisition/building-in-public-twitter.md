@@ -1,17 +1,13 @@
 ---
 title: Building in Public on Twitter
-created: 2025-12-16
-updated: 2025-12-16
-tags: [pattern]
-category: Research
+pattern-category: customer-acquisition
+success-rate: Medium-High (requires consistency + authenticity)
+time-investment: 30-60 min daily for 1-3 years
+difficulty: Medium (consistency is hardest part)
+tags: [pattern, customer-acquisition]
 type: Pattern
 ---
 # Building in Public on Twitter
-
-**Category:** customer-acquisition
-**Success Rate:** Medium-High (requires consistency + authenticity)
-**Time Investment:** 30-60 min daily for 1-3 years
-**Difficulty:** Medium (consistency is hardest part)
 
 ## What Is This Pattern?
 
@@ -57,6 +53,16 @@ Share your journey, metrics, wins, and failures publicly on Twitter while buildi
   - Community engagement
 - **Results**: PH Maker of Year, ShipFast $4K/day revenue
 - **Key Insight**: Sharing failures builds more trust than only wins
+
+### 4. Jon Yongfook (Bannerbear) - Open Startup Model → $50K MRR
+- **Context**: Serial SaaS founder building developer tool
+- **Execution**:
+  - Shared all revenue and growth metrics publicly
+  - Active in Indie Hackers community
+  - Transparent about 2-year journey to $10K MRR
+  - Community became case study for other indie hackers
+- **Results**: $50K MRR with sustainable growth, high trust community
+- **Key Insight**: Transparency builds trust + provides learning resource = community loyalty
 
 ## Why This Works
 

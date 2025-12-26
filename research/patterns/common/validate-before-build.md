@@ -1,17 +1,13 @@
 ---
 title: Validate Before Build
-created: 2025-12-16
-updated: 2025-12-16
-tags: [pattern]
-category: Research
+pattern-category: common
+success-rate: High (found in 95%+ of successful stories)
+time-investment: 1-2 weeks
+difficulty: Easy for solo founders
+tags: [pattern, common]
 type: Pattern
 ---
 # Validate Before Build
-
-**Category:** common
-**Success Rate:** High (found in 95%+ of successful stories)
-**Time Investment:** 1-2 weeks
-**Difficulty:** Easy for solo founders
 
 ## What Is This Pattern?
 

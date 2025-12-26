@@ -1,0 +1,11 @@
+# rumdl configuration for CEO AI research documentation
+
+# Disable line length check - documentation often needs long lines for tables, URLs, etc.
+disabled_rules = ["MD013"]
+
+# General settings
+line_length = 120  # Informational only (disabled above)
+heading_style = "atx"
+list_marker = "-"
+code_fence = "```"
+emphasis_style = "asterisk"

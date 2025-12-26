@@ -1,17 +1,14 @@
 ---
 title: 패턴: Freemium to Paid Conversion
-created: 2025-12-16
-updated: 2025-12-16
-tags: [pattern]
-category: Research
+pattern-category: monetization
+success-rate: 8/13 사례 (62%)
+tags: [pattern, monetization]
 type: Pattern
 ---
 # 패턴: Freemium to Paid Conversion
 
-**출현 빈도:** 8/13 사례 (62%)
 **평균 전환율:** 2-5%
 **수익 증가:** 2-3배
-**카테고리:** Monetization
 
 ---
 

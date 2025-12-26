@@ -1,17 +1,13 @@
 ---
 title: Scratch Your Own Itch
-created: 2025-12-16
-updated: 2025-12-16
-tags: [pattern]
-category: Research
+pattern-category: idea-discovery
+success-rate: High (80%+ of analyzed success stories)
+time-investment: Immediate (no research needed)
+difficulty: Easy (you already know the problem)
+tags: [pattern, idea-discovery]
 type: Pattern
 ---
 # Scratch Your Own Itch
-
-**Category:** idea-discovery
-**Success Rate:** High (80%+ of analyzed success stories)
-**Time Investment:** Immediate (no research needed)
-**Difficulty:** Easy (you already know the problem)
 
 ## What Is This Pattern?
 
@@ -50,7 +46,13 @@ Build solutions to problems you personally face. Instead of researching markets 
 - **Results**: $16K/month on autopilot
 - **Key Insight**: Boring repetitive task + many people do it = reliable revenue
 
-### 5. Vampire Survivors - Luca Galante (£40M net worth)
+### 5. Bannerbear - Jon Yongfook ($50K MRR)
+- **Context**: Developer needing automated image generation for marketing materials
+- **Execution**: Built API-first tool for auto-generating images and videos
+- **Results**: 2 years to $10K MRR, now $50K/month with sustainable growth
+- **Key Insight**: Developer tools + patient growth + cost efficiency = high margins
+
+### 6. Vampire Survivors - Luca Galante (£40M net worth)
 - **Context**: Unemployed, wanted to practice coding with game he'd enjoy
 - **Execution**: Built auto-attack survival game inspired by Magic Survival
 - **Results**: £40M net worth, created new game genre

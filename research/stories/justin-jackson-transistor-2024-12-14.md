@@ -1,35 +1,20 @@
 ---
 title: Justin Jackson - Transistor.fm Success Story
-created: 2024-12-14
-updated: 2024-12-14
-tags: [success-story]
-category: Research
+research-date: 2024-12-14
+category: SaaS / Podcast Hosting
+tags: ['success-story', 'saas']
 type: Success Story
+status: Active
+product: Transistor.fm
+founder: Justin Jackson, Jon Buda (co-founders)
+founded: 2018
+revenue-range: Profitable (34,000+ podcasts)
+team-size: 6 people (started with 2 co-founders)
+funding: Bootstrapped ($5K each = $10K total)
 ---
+
 # Justin Jackson - Transistor.fm Success Story
 
-**Research Date:** 2024-12-14
-**Category:** SaaS / Podcast Hosting
-**Revenue Range:** Profitable (34,000+ podcasts)
-**Team Size:** 6 people (started with 2 co-founders)
-**Status:** Active
-
----
-
-## Quick Facts
-
-| Metric | Value |
-|--------|-------|
-| **Founder** | Justin Jackson, Jon Buda (co-founders) |
-| **Product** | Transistor.fm |
-| **Founded** | 2018 |
-| **Podcasts Hosted** | 34,000+ (from 13,000+) |
-| **Team Size** | 6 people |
-| **Funding** | Bootstrapped ($5K each = $10K total) |
-| **Philosophy** | "Calm company" |
-| **Podcast** | Build Your SaaS (documenting journey) |
-
----
 
 ## The "Solve Your Own Problem" Story
 
@@ -53,8 +38,6 @@ type: Success Story
 - Focus on simplicity and reliability
 - Serve creators, not enterprises
 
----
-
 ## Building the Company
 
 ### Initial Investment
@@ -62,7 +45,6 @@ type: Success Story
 **The Only Investment:**
 - John: $5,000
 - Justin: $5,000
-- **Total:** $10,000 bootstrapped capital
 - No VC funding ever
 
 ### Build in Public Approach
@@ -84,8 +66,6 @@ type: Success Story
 2024:       34,000+ podcasts, 6-person team
 ```
 
----
-
 ## The "Calm Company" Philosophy
 
 ### What Makes It "Calm"
@@ -106,8 +86,6 @@ type: Success Story
 - Why: Their demands would compromise indie focus
 - Result: Maintains product simplicity and focus
 - Philosophy: Serve target market well, not everyone
-
----
 
 ## Business Model
 
@@ -131,8 +109,6 @@ type: Success Story
 - Good analytics
 - Fair pricing for indie creators
 - No feature bloat
-
----
 
 ## Key Success Factors
 
@@ -174,8 +150,6 @@ type: Success Story
 - Maintained focus on indie creators
 - Quality over quantity
 
----
-
 ## Justin Jackson's Background
 
 **Experience:**
@@ -189,8 +163,6 @@ type: Success Story
 - MegaMaker community
 - SaaS writing and teaching
 - Indie entrepreneurship advocate
-
----
 
 ## Lessons from Transistor
 
@@ -226,8 +198,6 @@ type: Success Story
 - Focus beats breadth
 - Serve target market exceptionally
 
----
-
 ## Community Building
 
 ### The Podcast Strategy
@@ -246,8 +216,6 @@ type: Success Story
 4. Trust development
 5. Differentiation
 
----
-
 ## Current Status (2024)
 
 **Scale:**
@@ -262,15 +230,11 @@ type: Success Story
 - Still building in public
 - Still prioritizing calm over chaos
 
----
-
 ## Key Quotes from Justin
 
 > "A calm company - profitable, purposeful, and designed to improve the lives of both customers and team members."
 
 > "Rather than pursuing aggressive growth, Transistor often says no to big customers whose demands would compromise their focus on indie podcasters."
-
----
 
 ## Sources
 

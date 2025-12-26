@@ -1,19 +1,13 @@
 ---
-title: Feasibility Report: ScreenFlow
-created: 2024-12-15
-updated: 2024-12-15
-tags: [feasibility, idea]
-category: Research
+title: ScreenFlow Feasibility Check
+analysis-date: 2024-12-15
 type: Feasibility Analysis
+feasibility-score: 6.5
+can-build: With Help
+estimated-effort: 14-21 days
+tags: [feasibility, screen-capture, electron, video-processing]
 ---
 # Feasibility Report: ScreenFlow
-
-**Generated Date:** 2024-12-15
-**Idea Score:** 7.8/10
-**Feasibility Score:** 6.5/10
-**Final Recommendation:** VALIDATE MORE (build proof-of-concept first, defer to 3rd-4th project)
-
----
 
 ## Executive Summary
 

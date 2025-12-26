@@ -329,7 +329,26 @@ Before finalizing evaluation:
 
 ## Evaluation Template
 
+**IMPORTANT:** All business idea evaluations MUST use Obsidian properties (YAML frontmatter) format.
+
 ```markdown
+---
+title: [Idea Name]
+evaluation-date: YYYY-MM-DD
+type: Business Evaluation
+overall-score: X.X
+recommendation: GO | ITERATE | VALIDATE MORE | NO-GO
+problem-intensity: X
+market-size: X
+competition: X
+monetization: X
+differentiation: X
+time-to-market: X
+solo-team-fit: X
+skills-match: X
+tags: [evaluation, category, relevant-tags]
+---
+
 # Business Idea Evaluation: [Idea Name]
 
 ## Executive Summary

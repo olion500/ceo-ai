@@ -1,15 +1,15 @@
+---
+title: Pieter Levels - Nomad List & RemoteOK Success Story
+research-date: 2025-12-16
+category: Multi-product Portfolio SaaS
+tags: ['success-story', 'saas']
+type: Success Story
+revenue-range: $176K MRR ($2.1M+ ARR)
+team-size: Solo founder
+---
+
 # Pieter Levels - Nomad List & RemoteOK Success Story
 
-**Research Date:** 2025-12-16
-**Category:** Multi-product Portfolio SaaS
-**Revenue Range:** $176K MRR ($2.1M+ ARR)
-
-## Quick Facts
-
-- **Founder:** Pieter Levels (@levelsio)
-- **Timeline:** 2014 시작 → 2024년 $5.3M revenue (Nomad List 단독)
-- **Current MRR:** $176K/month (전체 포트폴리오)
-- **Team Size:** Solo founder
 - **주요 제품:**
   - Nomad List: $38K/mo
   - RemoteOK: $35K/mo
@@ -81,12 +81,6 @@ Pieter Levels는 2014년 "12 Startups in 12 Months" 챌린지를 시작했습니
 - 트렌드를 빠르게 포착하고 실행
 
 ## Key Metrics
-
-- **2024 Nomad List Revenue:** $5.3M (단독)
-- **Total Portfolio MRR:** $176K
-- **Annual Revenue:** $2.1M+
-- **Team:** 1 person (solo)
-- **Cost Structure:** 매우 낮음 (자동화된 운영)
 
 ## Why This Works
 

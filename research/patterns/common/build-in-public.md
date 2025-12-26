@@ -1,17 +1,13 @@
 ---
 title: Build in Public
-created: 2025-12-16
-updated: 2025-12-16
-tags: [pattern]
-category: Research
+pattern-category: common
+success-rate: High (5/5 stories used this, all succeeded)
+time-investment: 30-60 minutes daily for 1-3+ years
+difficulty: Medium (requires consistency and vulnerability)
+tags: [pattern, common]
 type: Pattern
 ---
 # Build in Public
-
-**Category:** common
-**Success Rate:** High (5/5 stories used this, all succeeded)
-**Time Investment:** 30-60 minutes daily for 1-3+ years
-**Difficulty:** Medium (requires consistency and vulnerability)
 
 ## What Is This Pattern?
 
@@ -89,6 +85,32 @@ type: Pattern
   - 1.0 런칭 시 폭발적 반응
   - survivors-like 장르 창시
 - **Key Insight**: 게임 개발에서도 커뮤니티 참여가 핵심
+
+### 6. OnlineOrNot - Audience-First Approach (3+ years profitable)
+- **Context**: Website monitoring tool, 제품 전에 오디언스 구축
+- **Execution**:
+  - **1년간 React에 대해 글 작성** (제품 론칭 전)
+  - 기술 콘텐츠로 타겟 고객과 관계 형성
+  - 고객 획득 과정 투명하게 문서화
+  - "거의 매일 출시" 철학으로 피드백 빠르게 반영
+- **Results**:
+  - 론칭 시 이미 warm audience 확보
+  - 3+ years 수익성 유지
+  - 100% 고객 지원 (VC 없이 독립 운영)
+- **Key Insight**: "Audience First, Product Second" - 관계 먼저, 판매는 나중
+
+### 7. DB Pro - YouTube Devlogs (첫 달 $1K MRR)
+- **Context**: Kubernetes GUI 데스크톱 앱
+- **Execution**:
+  - 개발 과정 YouTube devlog 시리즈로 공개
+  - Behind-the-scenes 개발, 기능 프리뷰
+  - 커뮤니티 awareness 런칭 전 구축
+  - Show HN 런칭과 결합
+- **Results**:
+  - November 2025 런칭 후 첫 달 $1,000 MRR
+  - 커뮤니티 피드백으로 즉시 가격 모델 피봇
+  - Privacy-first 포지셔닝으로 차별화
+- **Key Insight**: YouTube = Building in Public의 또 다른 강력한 채널
 
 ## Why This Works
 

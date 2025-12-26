@@ -1,17 +1,13 @@
 ---
 title: Premium Pricing from Day One
-created: 2025-12-16
-updated: 2025-12-16
-tags: [pattern]
-category: Research
+pattern-category: monetization
+success-rate: High (4/6 stories, all succeeded)
+time-investment: N/A (pricing decision)
+difficulty: Easy (just a decision, but requires confidence)
+tags: [pattern, monetization]
 type: Pattern
 ---
 # Premium Pricing from Day One
-
-**Category:** monetization
-**Success Rate:** High (4/6 stories, all succeeded)
-**Time Investment:** N/A (pricing decision)
-**Difficulty:** Easy (just a decision, but requires confidence)
 
 ## What Is This Pattern?
 

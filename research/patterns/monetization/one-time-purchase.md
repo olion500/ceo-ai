@@ -1,17 +1,13 @@
 ---
 title: One-Time Purchase Model
-created: 2025-12-16
-updated: 2025-12-16
-tags: [pattern]
-category: Research
+pattern-category: monetization
+success-rate: High for developer tools, Medium for general SaaS
+time-investment: Same as subscription (payment integration)
+difficulty: Easy (simpler than subscriptions)
+tags: [pattern, monetization]
 type: Pattern
 ---
 # One-Time Purchase Model
-
-**Category:** monetization
-**Success Rate:** High for developer tools, Medium for general SaaS
-**Time Investment:** Same as subscription (payment integration)
-**Difficulty:** Easy (simpler than subscriptions)
 
 ## What Is This Pattern?
 

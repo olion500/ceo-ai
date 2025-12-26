@@ -1,17 +1,13 @@
 ---
 title: 패턴: Rapid MVP (빠른 최소 기능 제품)
-created: 2025-12-16
-updated: 2025-12-16
-tags: [pattern]
-category: Research
+pattern-category: product development
+success-rate: 매우 높음
+tags: [pattern, product development]
 type: Pattern
 ---
 # 패턴: Rapid MVP (빠른 최소 기능 제품)
 
-**출현 빈도:** 12/13 사례 (92%)
 **평균 개발 기간:** 2-4주 (범위: 주말-3개월)
-**성공률:** 매우 높음
-**카테고리:** Product Development
 
 ---
 

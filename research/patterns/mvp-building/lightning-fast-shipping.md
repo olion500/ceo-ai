@@ -1,17 +1,13 @@
 ---
 title: Lightning-Fast Shipping
-created: 2025-12-16
-updated: 2025-12-16
-tags: [pattern]
-category: Research
+pattern-category: mvp-building
+success-rate: High (first-mover advantage + validation speed)
+time-investment: 1-7 days for MVP
+difficulty: Hard (requires focus, skills, ruthless prioritization)
+tags: [pattern, mvp-building]
 type: Pattern
 ---
 # Lightning-Fast Shipping
-
-**Category:** mvp-building
-**Success Rate:** High (first-mover advantage + validation speed)
-**Time Investment:** 1-7 days for MVP
-**Difficulty:** Hard (requires focus, skills, ruthless prioritization)
 
 ## What Is This Pattern?
 

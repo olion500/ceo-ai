@@ -1,17 +1,15 @@
+---
+title: Brad Adkins - Designfly Success Story
+research-date: 2025-12-16
+category: Productized Design Service
+tags: ['success-story']
+type: Success Story
+revenue-range: $10K MRR
+team-size: Solo designer
+---
+
 # Brad Adkins - Designfly Success Story
 
-**Research Date:** 2025-12-16
-**Category:** Productized Design Service
-**Revenue Range:** $10K MRR
-
-## Quick Facts
-
-- **Founder:** Brad Adkins
-- **Product:** Designfly - Unlimited UI/UX design for SaaS startups
-- **Timeline:** May 2022 quit → 18개월 만에 $10K MRR
-- **Current MRR:** $10K
-- **Business Model:** Monthly subscription design service
-- **Team Size:** Solo designer
 - **Previous Experience:** 10+ years in-house design
 
 ## The Story
@@ -44,21 +42,6 @@ Brad Adkins는 10년 이상의 인하우스 디자인 경력을 가진 베테랑
 ### 폭발적 초기 성장
 
 **First Month (May 2022):**
-- **$4.9K MRR** 달성
-- 예상보다 빠른 성장
-- 명확한 시장 수요 확인
-
-**6 Months (Nov 2022):**
-- **$6.5K MRR**
-- 안정적 고객 베이스 구축
-
-**18 Months (Nov 2023):**
-- **$10K MRR** 달성
-- 8-10 클라이언트 동시 관리
-
-### 가격 전략의 진화
-
-**초기 실수:**
 - $3,700 - $4,900/month (너무 높음)
 - 세일즈 클로징 어려움
 - 시장 가격 조사 부족
@@ -79,9 +62,6 @@ Brad Adkins는 10년 이상의 인하우스 디자인 경력을 가진 베테랑
 ### 서비스 구조
 
 **Delivery Options:**
-- **Plan 1:** 1-day delivery per deliverable
-- **Plan 2:** 2-day delivery per deliverable
-- **Upsell:** Webflow development 추가
 
 **Client Management:**
 - 8-10 클라이언트 동시 관리
@@ -150,26 +130,12 @@ Brad Adkins는 10년 이상의 인하우스 디자인 경력을 가진 베테랑
 ## Key Metrics
 
 ### Revenue Growth
-- **Month 1 (May 2022):** $4.9K MRR
-- **Month 6 (Nov 2022):** $6.5K MRR
-- **Month 18 (Nov 2023):** $10K MRR
-- **Current:** $10K MRR
 
 ### Pricing Evolution
-- **Initial:** $3,700 - $4,900/month (failed)
-- **Adjusted:** $1,000 - $1,900/month (success)
-- **Current Average:** $1,750/month
 
 ### Operations
-- **Clients:** 8-10 concurrent
-- **Delivery:** 1-2 days per deliverable
-- **Work Time:** 1-2 hours per task
-- **Team:** 1 person (solo)
 
 ### Lead Generation
-- **Tool:** Roasti (free design feedback)
-- **Purpose:** Lead gen for Designfly
-- **Conversion:** Natural upsell funnel
 
 ## Why This Works
 
@@ -220,12 +186,6 @@ Brad Adkins는 10년 이상의 인하우스 디자인 경력을 가진 베테랑
 - 제품/서비스가 좋으면 됨
 
 ## Red Flags / Risks
-
-- **Solo Dependency:** 본인 없으면 수익 없음
-- **Time for Money:** 여전히 시간 팔기
-- **Scalability Limit:** 8-10 클라이언트 상한
-- **No Passive Income:** 계속 일해야 함
-- **Burnout Risk:** 1인 운영 피로도
 
 ## Scaling Options
 

@@ -1,19 +1,22 @@
 ---
 title: ScreenFlow
-created: 2024-12-15
-updated: 2024-12-15
-tags: [idea]
-category: Research
+generated-date: 2024-12-15
 type: Business Idea
+status: Generated
+score: 7.8
+recommendation: VALIDATE MORE
+success-patterns:
+  - scratch-your-own-itch
+  - ai-enhancement
+  - unbundling-manual-work
+  - premium-pricing
+expected-timeline:
+  mvp: 14-21 days
+  first-revenue: 4-8 weeks
+  target-mrr: $1K MRR in 6-12 months
+tags: [screen-recording, documentation, ai-tools, automation]
 ---
 # ScreenFlow
-
-**Generated Date:** 2024-12-15
-**Status:** Generated (not yet feasibility-checked)
-**Score:** 7.8/10
-**Recommendation:** VALIDATE MORE
-
----
 
 ## Quick Summary
 

@@ -1,18 +1,16 @@
+---
+title: Angus Cheng - Bank Statement Converter Success Story
+research-date: 2025-12-16
+category: Micro-SaaS / PDF Tool
+tags: ['success-story', 'saas']
+type: Success Story
+revenue-range: $38K MRR ($456K ARR)
+team-size: Solo (one-man operation)
+---
+
 # Angus Cheng - Bank Statement Converter Success Story
 
-**Research Date:** 2025-12-16
-**Category:** Micro-SaaS / PDF Tool
-**Revenue Range:** $38K MRR ($456K ARR)
-
-## Quick Facts
-
-- **Founder:** Angus Cheng (@BallerIndustry)
-- **Product:** Bank Statement Converter - PDF statement to Excel/CSV converter
-- **Timeline:** 2020 rage-quit → 2021 launch → 2024 $318K revenue
-- **Current MRR:** $38K (2024 peak)
-- **Team Size:** Solo (one-man operation)
 - **Tech Stack:** Simple web app
-- **Marketing:** 100% SEO (paid ads 실패 후)
 
 ## The Story
 
@@ -138,28 +136,12 @@ HackerNews 프론트 페이지 도달:
 ## Key Metrics
 
 ### Revenue Growth
-- **2021:** $3,181
-- **2022:** $49,427 (15x)
-- **2023:** $147,336 (3x)
-- **2024:** $318,112 (2.16x)
 
 ### MRR Milestones
-- **Feb 2022:** $1K MRR
-- **Oct 2022:** $4K MRR
-- **Sep 2023:** $12K MRR
-- **2024 Peak:** $38K MRR
 
 ### Traffic & Marketing
-- **Google Ads:** $1K spent, $200 revenue (실패)
-- **Current Marketing Cost:** $0
-- **Traffic Source:** 100% organic Google search
-- **Platform:** HackerNews front page
 
 ### Operations
-- **Team:** 1 person (solo)
-- **Tech Stack:** Simple web app
-- **Operating Costs:** Minimal (hosting only)
-- **Margin:** Very high (90%+)
 
 ## Why This Works
 
@@ -204,11 +186,6 @@ HackerNews 프론트 페이지 도달:
 - 트래픽 비용 $0의 마법
 
 ## Red Flags / Risks
-
-- **Niche Too Small?:** 성장 한계 있을 수 있음
-- **Competition:** 대기업 진입 시 위협
-- **API Dependency:** PDF 파싱 기술 의존
-- **One-Trick Pony:** 다른 수익원 없음
 
 ## Comparison: Indie Hacker Mindset
 

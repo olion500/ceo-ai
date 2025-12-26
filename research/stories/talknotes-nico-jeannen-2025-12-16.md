@@ -1,17 +1,14 @@
+---
+title: Nico Jeannen - TalkNotes Success Story
+research-date: 2025-12-16
+category: AI Voice-to-Text SaaS
+tags: ['success-story', 'saas', 'ai']
+type: Success Story
+revenue-range: $7K MRR at exit
+---
+
 # Nico Jeannen - TalkNotes Success Story
 
-**Research Date:** 2025-12-16
-**Category:** AI Voice-to-Text SaaS
-**Revenue Range:** $7K MRR at exit
-
-## Quick Facts
-
-- **Founder:** Nico Jeannen (@nico_jeannen)
-- **Product:** TalkNotes - Voice note to structured text converter
-- **Timeline:** 2023 시작 → 2개월 $500 MRR → 11개월 후 $200K 매각
-- **Exit:** $200K (at $7K MRR, $70K total revenue)
-- **Current Status:** Sold on Acquire.com
-- **Other Projects:**
   - MakeLogo.ai (48시간, $15K+ profit)
   - 2024: $350K from exits & projects
 
@@ -39,11 +36,6 @@ TalkNotes 이전, Nico는 2022년 후반에 48시간 만에 MakeLogo.ai를 만�
 ### 빠른 초기 검증
 
 **First 2 Months:**
-- **$500 MRR 달성**
-- 명확한 Product-Market Fit 신호
-- 사용자 피드백으로 빠르게 개선
-
-**Product Hunt Launch (October):**
 - $1,500 MRR로 도약
 - 가시성 크게 증가
 - 새로운 사용자 유입 폭증
@@ -129,18 +121,8 @@ Exit 후 여러 프로젝트 진행:
 ## Key Metrics
 
 ### TalkNotes Performance
-- **Time to $500 MRR:** 2 months
-- **Product Hunt Impact:** $500 → $1,500 MRR
-- **MRR at Exit:** $7K
-- **Total Revenue:** $70K
-- **Exit Multiple:** 28x MRR
-- **Exit Price:** $200K
-- **Time to Exit:** 11 months
 
 ### Portfolio Performance
-- **MakeLogo.ai:** $15K+ profit (48 hours)
-- **TalkNotes Exit:** $200K
-- **2024 Total:** $350K
 
 ## Why This Works
 
@@ -181,11 +163,6 @@ Exit 후 여러 프로젝트 진행:
 - 빠른 실행으로 선점
 
 ## Red Flags / Risks
-
-- **AI Wrapper Risk:** 기술 진보로 경쟁력 상실 가능
-- **Exit Too Early?:** $7K MRR은 더 성장 가능했을 수도
-- **Platform Dependency:** AI API 의존성 높음
-- **Trend Chasing:** 트렌드만 쫓으면 깊이 부족
 
 ## Comparison: Hold vs Exit
 

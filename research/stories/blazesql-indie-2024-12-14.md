@@ -1,47 +1,26 @@
 ---
 title: BlazeSQL Success Story
-created: 2024-12-14
-updated: 2024-12-14
-tags: [success-story]
-category: Research
+research-date: 2024-12-14
+category: SaaS / AI / Data Tool
+tags: ['success-story', 'saas', 'ai']
 type: Success Story
+status: Active
+product: BlazeSQL
+founded: January 2023
+revenue-range: $1,000+ MRR
+current-revenue: $1,000+ MRR (steadily rising)
+team-size: Solo founder
+funding: Bootstrapped
 ---
+
 # BlazeSQL Success Story
 
-**Research Date:** 2024-12-14
-**Category:** SaaS / AI / Data Tool
-**Revenue Range:** $1,000+ MRR
-**Team Size:** Solo founder
-**Status:** Active
-
----
-
-## Quick Facts
-
-| Metric | Value |
-|--------|-------|
-| **Product** | BlazeSQL |
-| **Category** | AI-powered data tool |
-| **Founded** | January 2023 |
-| **Current Revenue** | $1,000+ MRR (steadily rising) |
-| **Team Size** | 1 (Solo founder) |
-| **Funding** | Bootstrapped |
-| **Time to $1K MRR** | ~6 months |
-| **Background** | Data Scientist turned Indie Hacker |
-
----
 
 ## The "Solve Your Own Problem" Journey
 
 ### Background
 
 **The Founder's Path:**
-- **2021:** Working as data scientist
-- **Frustration:** Annoyed by chaotic group chats when friends tried to organize holidays and dinners
-- **First Attempt:** Learned Flutter to build social planning app
-- **2023:** Found co-founder, but relationship ended in conflict
-- **Pivot:** ChatGPT launched, discovered indie hacker community
-- **New Direction:** Leveraged data science background + ChatGPT to build BlazeSQL
 
 ### The Problem
 
@@ -55,8 +34,6 @@ type: Success Story
 - ChatGPT could transform how people interact with databases
 - Data scientists and analysts need better query tools
 - Opportunity to combine AI with data science expertise
-
----
 
 ## Timeline
 
@@ -72,8 +49,6 @@ Jan 2023:    Started building BlazeSQL (wanted independence)
 Oct 2023:    Broke $1K MRR (6 months of indie hacking)
 Current:     MRR steadily rising above $1K
 ```
-
----
 
 ## Key Lessons
 
@@ -106,8 +81,6 @@ Current:     MRR steadily rising above $1K
 - AI/ChatGPT trend riding
 - Data science community targeting
 
----
-
 ## Independence Journey
 
 ### Why Indie Hacking
@@ -121,8 +94,6 @@ Current:     MRR steadily rising above $1K
 3. **Desire:** Independence from employment
 4. **Opportunity:** AI trend emerging
 5. **Experience:** Learned from failed social app
-
----
 
 ## Product Development
 
@@ -139,8 +110,6 @@ Current:     MRR steadily rising above $1K
 - Data scientist-built (authentic understanding)
 - Early to AI data tool market
 - Combines ChatGPT with data expertise
-
----
 
 ## Growth Strategy
 
@@ -160,8 +129,6 @@ Current:     MRR steadily rising above $1K
 - Steady revenue growth
 - Sustainable customer acquisition
 - Low-cost growth channel
-
----
 
 ## Key Success Factors
 
@@ -195,8 +162,6 @@ Current:     MRR steadily rising above $1K
 - Proves market need
 - AI trend helped acceleration
 
----
-
 ## Lessons for Indie Hackers
 
 ### From the Founder
@@ -215,8 +180,6 @@ Current:     MRR steadily rising above $1K
 4. **Focus on Growth:** Organic traffic focus paid off
 5. **Validate Quickly:** 6 months to $1K MRR shows real demand
 
----
-
 ## Current Status
 
 **Revenue:**
@@ -229,8 +192,6 @@ Current:     MRR steadily rising above $1K
 - Scaling revenue
 - Building indie hacker independence
 
----
-
 ## Founder Advice
 
 > "I wanted to be independent" - On motivation to start
@@ -240,8 +201,6 @@ Current:     MRR steadily rising above $1K
 - Focus on organic growth when budget limited
 - Leverage AI trends while learning fundamentals
 - Don't let failed projects stop you
-
----
 
 ## Sources
 

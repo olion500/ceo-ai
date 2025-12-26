@@ -1,16 +1,11 @@
 ---
 title: 패턴: Problem-First Approach (문제 우선 접근)
-created: 2025-12-16
-updated: 2025-12-16
-tags: [pattern]
-category: Research
+pattern-category: product development
+success-rate: 매우 높음
+tags: [pattern, product development]
 type: Pattern
 ---
 # 패턴: Problem-First Approach (문제 우선 접근)
-
-**출현 빈도:** 13/13 사례 (100%)
-**성공률:** 매우 높음
-**카테고리:** Product Development
 
 ---
 

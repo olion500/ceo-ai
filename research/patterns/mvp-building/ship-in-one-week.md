@@ -1,17 +1,13 @@
 ---
 title: Ship in One Week (or Less)
-created: 2025-12-16
-updated: 2025-12-16
-tags: [pattern]
-category: Research
+pattern-category: mvp-building
+success-rate: Very High (4/6 stories, all who used this succeeded)
+time-investment: 1-7 days
+difficulty: Hard (requires experience, focus, scope discipline)
+tags: [pattern, mvp-building]
 type: Pattern
 ---
 # Ship in One Week (or Less)
-
-**Category:** mvp-building
-**Success Rate:** Very High (4/6 stories, all who used this succeeded)
-**Time Investment:** 1-7 days
-**Difficulty:** Hard (requires experience, focus, scope discipline)
 
 ## What Is This Pattern?
 

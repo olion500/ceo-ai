@@ -1,17 +1,11 @@
 ---
 title: 패턴: Building in Public (공개 빌딩)
-created: 2025-12-16
-updated: 2025-12-16
-tags: [pattern]
-category: Research
+pattern-category: customer-acquisition
+success-rate: 매우 높음
+tags: [pattern, customer-acquisition]
 type: Pattern
 ---
 # 패턴: Building in Public (공개 빌딩)
-
-**출현 빈도:** 10/13 사례 (77%)
-**평균 효과:** 론칭 시 2-3배 높은 트랙션
-**성공률:** 매우 높음
-**카테고리:** Marketing & Community
 
 ---
 

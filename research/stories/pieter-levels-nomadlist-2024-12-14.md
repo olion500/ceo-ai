@@ -1,42 +1,25 @@
 ---
 title: Pieter Levels - Nomad List & Portfolio Success Story
-created: 2024-12-14
-updated: 2024-12-14
-tags: [success-story]
-category: Research
+research-date: 2024-12-14
+category: SaaS Portfolio / Digital Nomad Tools / AI Apps
+tags: ['success-story', 'saas', 'ai']
 type: Success Story
+status: Active
+founder: Pieter Levels (@levelsio)
+founded: 2014 (Nomad List)
+revenue-range: $3,000,000/year (Portfolio)
+current-revenue: $3M+/year, $176K/month
+team-size: Solo (Zero employees)
+funding: Bootstrapped
+users: Millions monthly (Nomad List)
 ---
+
 # Pieter Levels - Nomad List & Portfolio Success Story
 
-**Research Date:** 2024-12-14
-**Category:** SaaS Portfolio / Digital Nomad Tools / AI Apps
-**Revenue Range:** $3,000,000/year (Portfolio)
-**Team Size:** Solo (Zero employees)
-**Status:** Active
-
----
-
-## Quick Facts
-
-| Metric | Value |
-|--------|-------|
-| **Founder** | Pieter Levels (@levelsio) |
-| **Main Products** | Nomad List, Remote OK, Photo AI, Rebase |
-| **Founded** | 2014 (Nomad List) |
-| **Current Revenue** | $3M+/year, $176K/month |
-| **Users** | Millions monthly (Nomad List) |
-| **Team Size** | 0 employees (solo) |
-| **Funding** | Bootstrapped |
-| **Twitter Followers** | 422K+ |
-| **Tech Stack** | Vanilla PHP, jQuery, SQLite |
-
----
 
 ## The Ultimate "Build for Yourself" Story
 
 Pieter Levels is the quintessential indie hacker who built products from his laptop as a digital nomad, solving problems he personally faced while traveling the world.
-
----
 
 ## Product Portfolio
 
@@ -84,16 +67,11 @@ Pieter Levels is the quintessential indie hacker who built products from his lap
 - Generate professional photos with AI
 
 **Explosive Growth:**
-- **Week 1:** $150,000 revenue
-- **18 months:** Six-figure monthly revenue
-- **Current:** $132,000/month
 - Fastest-growing product in portfolio
 
 ### 4. Avatar AI
 
 **Revenue:** $100K+ within months of launch
-
----
 
 ## Building Philosophy
 
@@ -123,8 +101,6 @@ Pieter Levels is the quintessential indie hacker who built products from his lap
 - Don't need cutting-edge for revenue
 - Focus on product, not technology
 
----
-
 ## Revenue Journey
 
 ### Timeline
@@ -149,8 +125,6 @@ Pieter Levels is the quintessential indie hacker who built products from his lap
 - Remote OK: Undisclosed
 - Avatar AI: $100K+ (initial)
 - Other projects: Various
-
----
 
 ## Key Success Factors
 
@@ -185,8 +159,6 @@ Pieter Levels is the quintessential indie hacker who built products from his lap
 - Shows behind-the-scenes
 - Built-in distribution channel
 
----
-
 ## Lifestyle Design
 
 **Working from Laptop:**
@@ -199,8 +171,6 @@ Pieter Levels is the quintessential indie hacker who built products from his lap
 - $3M/year with zero employees
 - ~100% profit after costs
 - Full control and freedom
-
----
 
 ## Key Lessons from Pieter
 
@@ -232,8 +202,6 @@ Pieter Levels is the quintessential indie hacker who built products from his lap
 - Don't wait for "perfect" product
 - Money validates real need
 
----
-
 ## Photo AI Success Case Study
 
 ### Problem → Solution → Revenue
@@ -243,9 +211,6 @@ Pieter Levels is the quintessential indie hacker who built products from his lap
 **Solution:** Built Photo AI in short time
 
 **Results:**
-- **Week 1:** $150,000 revenue
-- **Month 1:** Six figures
-- **18 Months:** $132,000/month sustained
 - Demonstrates AI application opportunities for solo founders
 
 ### Why It Worked
@@ -255,8 +220,6 @@ Pieter Levels is the quintessential indie hacker who built products from his lap
 3. **Execution Speed:** Shipped quickly
 4. **Marketing:** 422K Twitter following for distribution
 5. **Monetization:** Charged from day one
-
----
 
 ## Pieter's Advice to Indie Hackers
 
@@ -279,8 +242,6 @@ Pieter Levels is the quintessential indie hacker who built products from his lap
 - 70 failures before $300K/month
 - Each failure teaches
 - Success requires many attempts
-
----
 
 ## Sources
 
