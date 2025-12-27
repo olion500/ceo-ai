@@ -12,7 +12,8 @@
       "MultiEdit:*",
       "NotebookEdit:*",
       "Bash:*",
-      "WebSearch:*"
+      "WebSearch:*",
+      "WebFetch:*"
     ],
     "defaultMode": "acceptEdits"
   },
