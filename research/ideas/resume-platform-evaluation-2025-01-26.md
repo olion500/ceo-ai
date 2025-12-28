@@ -14,6 +14,9 @@ solo-team-fit: 6
 skills-match: 8
 tags: [evaluation, career-tech, resume, saas, korean-market]
 ---
+# similar services
+- https://jobsaicopilot.com/
+
 
 # Business Idea Evaluation: 경력자 이력서 정리 플랫폼
 

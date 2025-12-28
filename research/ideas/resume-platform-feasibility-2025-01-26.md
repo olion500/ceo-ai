@@ -694,7 +694,7 @@ Poromy가 존재하지만 "자동 데이터 수집"이 핵심 차별점. Rezi는
 ## References
 
 ### Local Documents
-- **Idea Evaluation:** [경력자 이력서 정리 플랫폼](./resume-platform-evaluation-2025-01-26.md)
+- **Idea Evaluation:** [경력자 이력서 정리 플랫폼](resume-platform-evaluation-2025-01-26.md)
 - **Success Patterns:** [Resume & Career Platform Success Patterns](../stories/resume-career-platforms-success-patterns-2025-01-26.md)
 
 ### Competitor Research
