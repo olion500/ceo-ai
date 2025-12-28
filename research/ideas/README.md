@@ -8,9 +8,9 @@ type: Business Idea
 ---
 # Business Ideas Generated
 
-**Last Updated:** 2024-12-15
-**Total Ideas:** 5
-**Feasibility Checked:** ✅ All 5 complete
+**Last Updated:** 2024-12-28
+**Total Ideas:** 6
+**Feasibility Checked:** ⏳ 5 complete, 1 pending
 
 ---
 
@@ -22,7 +22,8 @@ type: Business Idea
 | 🥈 | **[DevStack Migrator](#1-devstack-migrator-9210)** | 9.2/10 | 8.6/10 | **8.9/10** | ✅ Ready | **START FIRST** (or #2) |
 | 🥉 | **[GitHub PR Reviewer](#3-github-pr-reviewer-8810)** | 8.8/10 | 8.2/10 | **8.5/10** | ✅ Ready | Start as #3 |
 | 4 | **[TweetCRM](#5-tweetcrm-7510)** | 7.5/10 | 8.0/10 | **7.8/10** | ⚠️ Validate | Customer interviews first |
-| 5 | **[ScreenFlow](#4-screenflow-7810)** | 7.8/10 | 6.5/10 | **7.2/10** | ⚠️ Validate | POC needed first |
+| 5 | **[카카오톡 AI 대화 코치](#6-kakaotalk-ai-dating-coach-7310)** | 7.3/10 | TBD | **TBD** | ⏳ Pending | Feasibility check needed |
+| 6 | **[ScreenFlow](#4-screenflow-7810)** | 7.8/10 | 6.5/10 | **7.2/10** | ⚠️ Validate | POC needed first |
 
 ---
 
@@ -274,6 +275,81 @@ type: Business Idea
 
 ---
 
+### 6. 카카오톡 AI 대화 코치 (7.3/10)
+
+**One-liner:** 카카오톡 채팅 캡처를 올리면 AI가 썸남/썸녀에게 보낼 자연스러운 답장을 추천해주는 모바일 앱
+
+**📄 Documents:**
+- [Idea Specification](./kakaotalk-ai-dating-coach-2024-12-28.md)
+- [Feasibility Report](./kakaotalk-ai-dating-coach-feasibility-2024-12-28.md) ⏳ Pending
+
+**Success Patterns:**
+- Scratch Someone Else's Itch (79%)
+- Ride the Wave (60% - GPT-4 Vision API)
+- Weekly Pricing Psychology (Validated by Rizz AI)
+- First-to-Market in Niche (High)
+
+**Idea Score Breakdown:**
+- **Personal Pain:** 7/10 - 주변에서 흔히 관찰되는 문제
+- **Market Size:** 7/10 - 한국 150K-200K addressable market
+- **Achievability:** 8/10 - React Native + OpenAI API = 8-10주
+- **Monetization:** 8/10 - Rizz AI가 $7/주 모델 검증
+- **Competition:** 6/10 - 한국 특화 없음 (good), 진입장벽 낮음 (bad)
+- **Timing:** 8/10 - AI 붐, GPT-4 Vision 출시 시점
+- **Overall:** 7.3/10
+
+**Similar Success:**
+- **RizzGPT (Blake Anderson):** $2.5M ARR
+  - 첫 주: 200K 다운로드, $80K MRR
+  - Peak: $700K/월
+  - Non-engineer 솔로 창업
+- **Rizz App (Roman Khaves):** $500K/월
+  - 750만 다운로드, 100만 MAU
+  - 월 30% 성장
+  - $7/주 프리미엄 구독
+
+**Key Insights:**
+- ✅ Rizz AI 글로벌 성공 = 수요 검증됨
+- ✅ 한국 시장 언더서브드 (한국어 특화 앱 없음)
+- ✅ 빠른 MVP 가능 (8-10주, OpenAI API 활용)
+- ⚠️ 대형 플랫폼 진입 리스크 (카카오/네이버)
+- ⚠️ Rizz AI 한국어 버전 출시 가능성
+
+**Revenue Projection (Estimated):**
+
+| Month | Downloads | MAU | Paid | MRR (₩) | MRR ($) |
+|:-----:|:---------:|:---:|:----:|:-------:|:-------:|
+| 1 | 5,000 | 1,500 | 150 | ₩1.5M | $1.1K |
+| 3 | 20,000 | 6,000 | 600 | ₩6M | $4.5K |
+| 6 | 50,000 | 15,000 | 1,500 | ₩15M | $11K |
+| 12 | 150,000 | 45,000 | 4,500 | ₩45M | $34K |
+
+**Timeline:**
+- Week 1-2: Validation + Planning
+- Week 3-10: MVP Development (React Native)
+- Week 11-12: Beta Test + Launch
+- Month 4: Target $1K MRR
+
+**Feasibility Status:** ⏳ **PENDING**
+- Need user background info (skills, time, budget)
+- Technical feasibility: TBD (React Native experience?)
+- Financial feasibility: TBD (Budget for OpenAI API?)
+- Time feasibility: TBD (Can dedicate 8-10 weeks?)
+
+**Recommendation:** **GO** (pending feasibility check)
+- Strong idea score (7.3/10)
+- Validated market (Rizz AI success)
+- Clear monetization path
+- BUT: Need to verify execution capability first
+
+**Next Steps:**
+1. ⏳ Collect user background information
+2. ⏳ Run feasibility-checker analysis
+3. ⏳ Validate with 10 potential users
+4. ✅ If feasible: Start MVP development
+
+---
+
 ## Pattern Analysis
 
 ### Common Success Patterns (All 5 ideas)
@@ -381,11 +457,12 @@ type: Business Idea
 
 ## Summary Statistics
 
-**Ideas Generated:** 5
-**Fully Documented:** ✅ 5/5
-**Feasibility Checked:** ✅ 5/5
-**Ready to Build:** ✅ 3/5 (SaaSBoard, DevStack, GitHub PR)
-**Need Validation:** ⚠️ 2/5 (TweetCRM, ScreenFlow)
+**Ideas Generated:** 6
+**Fully Documented:** ✅ 6/6
+**Feasibility Checked:** ⏳ 5/6 (카카오톡 AI pending)
+**Ready to Build:** ✅ 3/6 (SaaSBoard, DevStack, GitHub PR)
+**Need Validation:** ⚠️ 2/6 (TweetCRM, ScreenFlow)
+**Pending Feasibility:** ⏳ 1/6 (카카오톡 AI 대화 코치)
 
 **Combined Scores:**
 - 🥇 **9.0+:** SaaSBoard, DevStack Migrator (TIE)
@@ -401,6 +478,8 @@ type: Business Idea
 
 ---
 
-**Last Updated:** 2024-12-15
-**Status:** ✅ READY TO EXECUTE
-**Top Recommendation:** Start SaaSBoard this weekend, then DevStack Migrator 🚀
+**Last Updated:** 2024-12-28
+**Status:** ✅ READY TO EXECUTE (existing ideas) + ⏳ NEW IDEA PENDING FEASIBILITY
+**Top Recommendation:**
+- **Existing ideas:** Start SaaSBoard this weekend, then DevStack Migrator 🚀
+- **New idea (카카오톡 AI):** Run feasibility check first, then decide

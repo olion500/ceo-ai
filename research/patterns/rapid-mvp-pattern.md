@@ -1,8 +1,10 @@
 ---
-title: 패턴: Rapid MVP (빠른 최소 기능 제품)
+title: Rapid MVP (빠른 최소 기능 제품)
 pattern-category: product development
 success-rate: 매우 높음
-tags: [pattern, product development]
+tags:
+  - pattern
+  - product development
 type: Pattern
 ---
 # 패턴: Rapid MVP (빠른 최소 기능 제품)

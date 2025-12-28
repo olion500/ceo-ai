@@ -80,7 +80,7 @@ tags: [comprehensive-analysis, resume, career-tech, saas, korean-market, go-deci
 
 **After Iterations:** 50/80 → **54/80 (6.75/10)** → 조건부 GO
 
-[상세 리포트: resume-platform-evaluation-2025-01-26.md](../evaluations/resume-platform-evaluation-2025-01-26.md)
+[상세 리포트: resume-platform-evaluation-2025-01-26.md](resume-platform-evaluation-2025-01-26.md)
 
 ---
 
@@ -226,7 +226,7 @@ tags: [comprehensive-analysis, resume, career-tech, saas, korean-market, go-deci
 | MRR | ₩0.2M-₩0.5M | ₩9M-₩18M | ₩25M-₩42M |
 | 유료 고객 | 5-12 | 150-300 | 360-600 |
 
-[상세 리포트: resume-platform-feasibility-2025-01-26.md](../evaluations/resume-platform-feasibility-2025-01-26.md)
+[상세 리포트: resume-platform-feasibility-2025-01-26.md](resume-platform-feasibility-2025-01-26.md)
 
 ---
 
@@ -814,9 +814,9 @@ Final Score = (Idea: 50/80 × 0.4) + (Pattern Match: 7/10 × 0.3) + (Feasibility
 ## 📚 Appendices
 
 ### A. Detailed Agent Reports
-- [Business Idea Evaluation](../evaluations/resume-platform-evaluation-2025-01-26.md) - 50/80 (6.25/10)
+- [Business Idea Evaluation](resume-platform-evaluation-2025-01-26.md) - 50/80 (6.25/10)
 - [Success Pattern Analysis](../stories/resume-career-platforms-success-patterns-2025-01-26.md) - 5 patterns identified
-- [Feasibility Assessment](../evaluations/resume-platform-feasibility-2025-01-26.md) - 6.8/10
+- [Feasibility Assessment](resume-platform-feasibility-2025-01-26.md) - 6.8/10
 
 ### B. Research Sources
 - [Rezi Revenue](https://boringcashcow.com/view/resume-builder-achieves-24m-annual-revenue) - $2.4M ARR
