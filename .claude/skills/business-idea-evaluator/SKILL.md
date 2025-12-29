@@ -11,19 +11,7 @@ Provide systematic, evidence-based evaluation of business ideas specifically for
 
 ## When to Use This Skill
 
-Automatically activates when you mention:
-- Evaluate business idea
-- Score business concept
-- Assess market opportunity
-- Validate product idea
-- Compare business ideas
-- Business viability analysis
-- Idea evaluation framework
-- Product-market fit assessment
-- Competitive analysis
-- Market size analysis
-- Revenue potential
-- Business feasibility
+Automatically activates when you mention evaluating or scoring business ideas, assessing market opportunity, validating concepts, or analyzing business viability. See skill-rules.json for complete trigger list.
 
 ## Evaluation Framework
 
@@ -466,50 +454,13 @@ tags: [evaluation, category, relevant-tags]
 
 ## Calibration Examples
 
-### High Score Example (65/80)
+### High Score Example (65/80): Shopify AI Product Descriptions
+- Problem: 8, Market: 7, Competition: 6, Monetization: 9, Differentiation: 7, Time: 7, Solo Fit: 8, Skills: 8
+- **Why High:** Clear problem, proven market, fast to build, obvious monetization
 
-**Idea:** Shopify app for automatic product description generation using AI
-
-- Problem Intensity: 8/10 (Store owners hate writing descriptions)
-- Market Size: 7/10 (2M+ Shopify stores)
-- Competition: 6/10 (Few AI-focused competitors)
-- Monetization: 9/10 (Clear $29/mo subscription model)
-- Differentiation: 7/10 (AI angle + Shopify integration)
-- Time to Market: 7/10 (Can build in 6-8 weeks)
-- Solo/Team Fit: 8/10 (Perfect for solo dev)
-- Skills Match: 8/10 (Have required skills)
-
-**Why High Score:** Clear problem, proven market, fast to build, monetization obvious.
-
-### Medium Score Example (45/80)
-
-**Idea:** Social network for book lovers
-
-- Problem Intensity: 5/10 (Nice-to-have, not urgent)
-- Market Size: 8/10 (Millions of readers)
-- Competition: 3/10 (Goodreads, LibraryThing, many others)
-- Monetization: 4/10 (Ads or premium unclear)
-- Differentiation: 5/10 (Better UX, but commoditized)
-- Time to Market: 5/10 (3-4 months for MVP)
-- Solo/Team Fit: 6/10 (Possible but challenging alone)
-- Skills Match: 6/10 (Need to learn recommendation engines)
-
-**Why Medium Score:** Large market but tough competition, unclear monetization, commoditized product.
-
-### Low Score Example (28/80)
-
-**Idea:** AI-powered meal planning with grocery delivery
-
-- Problem Intensity: 6/10 (People want this)
-- Market Size: 7/10 (Everyone eats)
-- Competition: 2/10 (Many established players)
-- Monetization: 5/10 (Subscription possible but low margin)
-- Differentiation: 4/10 (AI isn't unique anymore)
-- Time to Market: 2/10 (Complex integrations, 6+ months)
-- Solo/Team Fit: 1/10 (Need team for operations)
-- Skills Match: 4/10 (Need food/logistics expertise)
-
-**Why Low Score:** Competitive market, complex to build, requires team, low differentiation.
+### Low Score Example (28/80): AI Meal Planning + Delivery
+- Problem: 6, Market: 7, Competition: 2, Monetization: 5, Differentiation: 4, Time: 2, Solo Fit: 1, Skills: 4
+- **Why Low:** Competitive market, complex build, requires team, low differentiation
 
 ---
 
