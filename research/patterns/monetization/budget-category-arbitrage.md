@@ -21,6 +21,7 @@ Positioning your product to compete for hiring/labor budgets instead of software
 ## Real Examples (Ranked by Success)
 
 ### 1. 11x AI - Alice/Jordan ($25M ARR)
+
 - **Context**: AI-powered sales development reps and phone reps
 - **Traditional Approach**: Could have positioned as "sales automation tool" competing with Outreach, Salesloft
 - **Arbitrage Move**: Positioned as "AI workers" replacing SDR/BDR hires
@@ -62,6 +63,7 @@ Positioning your product to compete for hiring/labor budgets instead of software
 ## When to Use This Pattern
 
 ✅ **Use this when:**
+
 - Your product genuinely replaces an entire job function (e.g., data entry, customer support, SDRs)
 - The job function you replace has high salary costs ($40K+ per year)
 - Hiring for that role is painful (hard to find, high turnover, long training)
@@ -69,6 +71,7 @@ Positioning your product to compete for hiring/labor budgets instead of software
 - The market is saturated with "productivity tools" in your category
 
 ❌ **Don't use when:**
+
 - Your product only assists or enhances (doesn't replace)
 - The job function requires too much human judgment or creativity
 - Quality isn't consistent enough to trust without oversight
@@ -78,22 +81,26 @@ Positioning your product to compete for hiring/labor budgets instead of software
 ## Implementation Tactics
 
 **Positioning:**
+
 - Language: "AI workers" not "AI tools" or "AI assistants"
 - Comparisons: Benchmark against salaries not software prices
 - Messaging: "Replace" not "enhance" or "automate"
 
 **Sales Process:**
+
 - Target: Hiring managers, department heads, COOs (not IT)
 - Pitch: ROI-focused (salary savings, not feature lists)
 - Demo: Show end-to-end job completion, not just features
 - Pricing: Fraction of salary cost (e.g., $1K/month vs $5K/month salary)
 
 **Marketing:**
+
 - Case studies: "Company X replaced 3 SDRs with AI workers"
 - Content: "The true cost of hiring [role]" (recruiting, training, turnover)
 - Channels: Reach hiring managers (LinkedIn, industry forums, not software review sites)
 
 **Product:**
+
 - Fully autonomous workflows (minimal human intervention)
 - Quality monitoring and reporting
 - Integration with systems the human would use

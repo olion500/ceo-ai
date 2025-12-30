@@ -24,6 +24,7 @@ type: Pattern
 ## Real Examples (Ranked by Pricing Confidence)
 
 ### 1. Marc Lou (ShipFast) - $200+ for Boilerplate
+
 - **Context**: Next.js boilerplate, "weeks of time saved"
 - **Execution**:
   - 런칭: $200-300 추정 (one-time)
@@ -37,6 +38,7 @@ type: Pattern
 - **Key Insight**: "Premium pricing works for developer tools" - 개발자 시간은 비쌈
 
 ### 2. Luca Galante (Balatro) - $14.99 Premium Indie
+
 - **Context**: 인디 게임, $5-10이 일반적
 - **Execution**:
   - 경쟁 인디 게임: $5-10
@@ -50,6 +52,7 @@ type: Pattern
 - **Key Insight**: "Premium pricing works with quality" - 퀄리티 좋으면 가격 문제 안 됨
 
 ### 3. Tony Dinh (TypingMind) - $9 → $39 Evolution
+
 - **Context**: ChatGPT UI, 시작은 낮게 후 프리미엄으로
 - **Execution**:
   - 런칭: $9 (bare bones)
@@ -62,6 +65,7 @@ type: Pattern
 - **Key Insight**: "Scale pricing as value increases" - 가치 증가 = 가격 증가 OK
 
 ### 4. Bhanu Teja (SiteGPT) - No Free Tier from Day 1
+
 - **Context**: AI chatbot SaaS, 경쟁사 대부분 freemium
 - **Execution**:
   - 무료 티어 **없음**
@@ -76,26 +80,31 @@ type: Pattern
 ## Why This Works
 
 **Higher Margins = Sustainability:**
+
 - Marc Lou: 90-92% margins
 - 낮은 가격 = 더 많은 고객 필요
 - 프리미엄 = 적은 고객으로 생존
 
 **Filters for Serious Customers:**
+
 - Bhanu: 무료 없으면 "hype customers" 제외
 - 유료 고객 = 실제 문제 있는 사람
 - 피드백 quality 높음
 
 **Perceived Value Increases:**
+
 - 비싼 것 = 좋은 것 (심리적)
 - 저가 = "왜 이렇게 싼가?" 의심
 - 프리미엄 = 신뢰
 
 **Room for Growth:**
+
 - Tony: $9 → $39 진화 가능
 - 낮게 시작하면 올리기 어려움
 - 높게 시작하면 할인 여지
 
 **Avoid Race to Bottom:**
+
 - 가격 경쟁 = 수익성 파괴
 - 프리미엄 포지셔닝 = 차별화
 - 퀄리티로 경쟁, 가격으로 경쟁 X
@@ -136,6 +145,7 @@ type: Pattern
 ## When to Use This Pattern
 
 ✅ **Good Fit When:**
+
 - B2B/B2D 제품 (기업/개발자 = 구매력 있음)
 - 명확한 ROI 계산 가능 (시간 절약, 수익 증가)
 - 프리미엄 타겟 (돈보다 시간 중요한 사람들)
@@ -144,6 +154,7 @@ type: Pattern
 - 진지한 고객만 원함 (tire kicker 싫음)
 
 ❌ **Bad Fit When:**
+
 - 소비자 대상 (consumer) + 저소득층
 - 명확한 가치 설명 어려움
 - 네트워크 효과 필요 (많은 사용자 = 가치)
@@ -160,7 +171,7 @@ type: Pattern
 
 ## Pricing Formula
 
-```
+```text
 Value Created for Customer
 ÷ 10 to 20
 = Your Price
@@ -172,14 +183,16 @@ $5,000 (developer hourly rate × weeks saved)
 ```
 
 **Time-Based:**
-```
+
+```text
 Hours Saved × Customer Hourly Rate
 ÷ 10 to 20
 = Your Price
 ```
 
 **Revenue-Based:**
-```
+
+```text
 Additional Revenue Generated for Customer
 × 10-20% (rev share equivalent)
 = Your Price (annual)
@@ -190,27 +203,30 @@ Additional Revenue Generated for Customer
 모두 프리미엄이지만 tier 구조:
 
 **Single Tier (Simple):**
+
 - Marc Lou: One price, all features
 - 장점: 단순, 결정 쉬움
 - 단점: 일부 고객 놓칠 수 있음
 
 **Evolving Pricing (Growth):**
+
 - Tony Dinh: $9 → $39 as features added
 - 장점: 초기 고객 확보 + 나중에 프리미엄
 - 단점: 초기 고객 grandfathering 문제
 
 **Premium Tiers (Enterprise):**
+
 - 추가 기능/지원 = 더 높은 가격
 - $49 / $99 / $199 같은 구조
 
 ## Quotes from Founders
 
 > "Premium pricing works for developer tools" - Marc Lou (90-92% margins)
-
+>
 > "It wasn't priced in a smart way, it was priced in a fair way" - Luca Galante (Balatro, $14.99)
-
+>
 > "Weeks of time saved >> $200" - Marc Lou (ShipFast value proposition)
-
+>
 > "No free tier filtered for committed customers" - Bhanu Teja (SiteGPT)
 
 ## Sources

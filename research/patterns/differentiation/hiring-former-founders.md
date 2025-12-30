@@ -23,6 +23,7 @@ Building a team primarily composed of people who have founded companies before. 
 ## Real Examples (Ranked by Success)
 
 ### 1. 11x AI - "Drivers Not Passengers" ($25M ARR)
+
 - **Context**: Building AI sales automation in highly competitive market
 - **Team Composition**: 50% of team are former founders
 - **Hiring Philosophy**: "We're all drivers, no passengers"
@@ -69,6 +70,7 @@ Building a team primarily composed of people who have founded companies before. 
 ## When to Use This Pattern
 
 ✅ **Use this when:**
+
 - You have capital to pay premium compensation
 - Your market requires extreme execution speed
 - Product/market is uncertain (need experimentation and pivots)
@@ -76,6 +78,7 @@ Building a team primarily composed of people who have founded companies before. 
 - You value speed over process/structure
 
 ❌ **Don't use when:**
+
 - You can't afford premium compensation
 - Your business requires deep process compliance (e.g., healthcare, finance)
 - You need specialists more than generalists
@@ -85,24 +88,28 @@ Building a team primarily composed of people who have founded companies before. 
 ## Implementation Tactics
 
 **Recruiting:**
+
 - **Where to find**: YC alumni groups, founder communities (On Deck, South Park Commons), acquired company employees
 - **Pitch**: Mission-driven work, equity upside, speed/autonomy culture
 - **Filter**: Ask about past ventures, decision-making speed, ownership examples
 - **Red flags**: Can't work as part of team, need CEO title, can't take direction
 
 **Compensation:**
+
 - **Base**: 1.5-2x typical role salary
 - **Equity**: Meaningful ownership (0.25-2% for early employees)
 - **Structure**: Senior titles (VP, Director) to match founder ego needs
 - **Benefits**: Flexible work, autonomy, budget ownership
 
 **Onboarding:**
+
 - **Ownership area**: Give broad domain from day one
 - **Goals not tasks**: Set outcomes, let them figure out how
 - **Minimize process**: Only essential structure, avoid bureaucracy
 - **Quick wins**: Let them ship something in first week
 
 **Culture Maintenance:**
+
 - **"Drivers not passengers" filter**: Ruthlessly maintain standard
 - **Fast feedback loops**: Weekly shipping cadence, daily standups
 - **Transparent metrics**: Share everything (revenue, burn, metrics)

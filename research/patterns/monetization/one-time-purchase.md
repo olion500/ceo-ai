@@ -24,6 +24,7 @@ Charge a one-time fee for lifetime access instead of monthly/annual subscription
 ## Real Examples (Ranked by Success)
 
 ### 1. TypingMind - Tony Dinh ($83K MRR one-time purchases)
+
 - **Context**: ChatGPT enhancement tool
 - **Execution**:
   - Started $9 one-time purchase
@@ -34,6 +35,7 @@ Charge a one-time fee for lifetime access instead of monthly/annual subscription
 - **Key Insight**: Lower friction than subscription for tool category
 
 ### 2. ShipFast - Marc Lou ($50K MRR, $1.2M lifetime)
+
 - **Context**: Next.js boilerplate for developers
 - **Execution**:
   - One-time purchase model
@@ -43,6 +45,7 @@ Charge a one-time fee for lifetime access instead of monthly/annual subscription
 - **Key Insight**: Developers prefer one-time for tools they'll use repeatedly
 
 ### 3. Vampire Survivors - Luca Galante (£40M net worth)
+
 - **Context**: Indie game
 - **Execution**:
   - $2.99 initial (bare bones)
@@ -52,6 +55,7 @@ Charge a one-time fee for lifetime access instead of monthly/annual subscription
 - **Key Insight**: Volume at low price point > subscriptions for games
 
 ### 4. Online Solitaire - Holger Sindbaek (Attempted, then pivoted)
+
 - **Context**: Web solitaire game
 - **Execution**:
   - Tried subscription: Only 5% of revenue
@@ -63,22 +67,26 @@ Charge a one-time fee for lifetime access instead of monthly/annual subscription
 ## Why This Works
 
 **Lower Friction**:
+
 - Single purchase decision vs recurring commitment
 - Psychological: "Buy once, own forever"
 - No cancellation anxiety
 - Impulse purchase easier
 
 **Customer Alignment**:
+
 - No feeling of being "milked" monthly
 - Appreciation for fair one-time pricing
 - Trust in business model
 
 **Marketing Simplicity**:
+
 - Simpler messaging (price, not pricing tiers)
 - Easier word-of-mouth ("costs $39")
 - No complex funnel optimization
 
 **Works for Certain Categories**:
+
 - Developer tools (one-time setup)
 - Templates/boilerplates (use repeatedly)
 - Games (entertainment purchase)
@@ -87,16 +95,19 @@ Charge a one-time fee for lifetime access instead of monthly/annual subscription
 ## Drawbacks
 
 **Revenue Predictability**:
+
 - No MRR (Monthly Recurring Revenue)
 - Must constantly acquire new customers
 - Revenue drops if acquisition slows
 
 **Lower LTV for Some Categories**:
+
 - SaaS with ongoing costs (hosting, APIs)
 - Continuous service delivery
 - High support burden
 
 **Valuation Impact**:
+
 - VCs prefer recurring revenue
 - Lower multiples for one-time vs subscription
 - Not ideal if seeking funding
@@ -132,6 +143,7 @@ Charge a one-time fee for lifetime access instead of monthly/annual subscription
 ## When to Use This Pattern
 
 ✅ **Good Fit When:**
+
 - **Developer tools**: Boilerplates, templates, utilities
 - **Digital products**: Ebooks, courses, assets
 - **Games**: Indie games, mobile games
@@ -140,6 +152,7 @@ Charge a one-time fee for lifetime access instead of monthly/annual subscription
 - **Clear value delivery**: Solve problem immediately
 
 ❌ **Bad Fit When:**
+
 - **High API costs**: OpenAI, data providers
 - **Expensive hosting**: Video streaming, large storage
 - **Continuous service**: Email providers, analytics SaaS
@@ -149,36 +162,43 @@ Charge a one-time fee for lifetime access instead of monthly/annual subscription
 ## Pricing Strategies
 
 **Developer Tools**:
+
 - $19-$99: Simple utilities
 - $99-$299: Comprehensive boilerplates
 - $299-$999: Professional frameworks
 
 **Digital Products**:
+
 - $9-$29: Ebooks, small templates
 - $29-$99: Course bundles
 - $99-$299: Comprehensive resources
 
 **Games**:
+
 - $2.99-$9.99: Indie games
 - $9.99-$29.99: Premium indie
 - DLC for ongoing revenue
 
 **Productivity Tools**:
+
 - $9-$49: Simple tools
 - $49-$199: Professional tools
 
 ## Evolution Strategies
 
 **Start One-Time, Add Subscription Later**:
+
 - Notion started one-time, added Teams subscription
 - Offers both models (personal vs team)
 
 **Grandfather Existing Customers**:
+
 - Lifetime deals for early adopters
 - New customers pay subscription
 - Rewards early believers
 
 **Major Version Upgrades**:
+
 - v1 purchased once
 - v2 requires new purchase (discounted for v1 owners)
 - Keeps revenue flowing from improvements
@@ -192,6 +212,7 @@ Charge a one-time fee for lifetime access instead of monthly/annual subscription
 ## Key Metrics
 
 **Instead of MRR, track**:
+
 - Daily/Weekly/Monthly revenue (not recurring)
 - Customer acquisition cost (CAC)
 - Average order value (AOV)
@@ -200,7 +221,7 @@ Charge a one-time fee for lifetime access instead of monthly/annual subscription
 
 ## Sources
 
-- Tony Dinh TypingMind: https://news.tonydinh.com/p/my-solopreneur-story-zero-to-45kmo (accessed 2024-12-14)
-- Marc Lou ShipFast: https://newsletter.marclou.com/p/scratch-your-own-itch (accessed 2024-12-14)
-- Online Solitaire: https://www.indiehackers.com/post/how-i-grew-a-simple-solitaire-game-to-10k-mrr (accessed 2024-12-14)
+- Tony Dinh TypingMind: <https://news.tonydinh.com/p/my-solopreneur-story-zero-to-45kmo> (accessed 2024-12-14)
+- Marc Lou ShipFast: <https://newsletter.marclou.com/p/scratch-your-own-itch> (accessed 2024-12-14)
+- Online Solitaire: <https://www.indiehackers.com/post/how-i-grew-a-simple-solitaire-game-to-10k-mrr> (accessed 2024-12-14)
 - Vampire Survivors: Various sources (accessed 2024-12-10)

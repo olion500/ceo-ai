@@ -21,6 +21,7 @@ Convert service expertise into fixed-price monthly subscriptions instead of hour
 ## Real Examples (Ranked by Success)
 
 ### 1. Designfly - Brad Adkins ($10K MRR in 18 months)
+
 - **Context**: 10-year design veteran tired of feast-or-famine freelancing
 - **Execution**:
   - Unlimited UI/UX design for SaaS startups
@@ -38,18 +39,21 @@ Convert service expertise into fixed-price monthly subscriptions instead of hour
 ## Why This Works
 
 **For the Founder:**
+
 - Predictable recurring revenue (vs project-based feast/famine)
 - Higher perceived value than hourly (charge for outcomes not time)
 - Scalable to extent of personal capacity
 - No client acquisition per project (retain clients monthly)
 
 **For the Client:**
+
 - Predictable monthly expense (easier budgeting)
 - Faster than hiring full-time employee
 - No negotiation friction (transparent pricing)
 - Cancel anytime flexibility
 
 **Market Dynamics:**
+
 - Sweet spot between freelancing (unpredictable) and agency (expensive)
 - Recurring revenue creates business value (sellable asset)
 - Client LTV much higher than project-based work
@@ -89,6 +93,7 @@ Convert service expertise into fixed-price monthly subscriptions instead of hour
 ## When to Use This Pattern
 
 ✅ **Good Fit When:**
+
 - You have 5-10+ years expertise in marketable skill
 - Skill is high-demand and repeatable (design, development, writing, etc.)
 - You're fast due to experience (can serve 5-10+ clients monthly)
@@ -96,6 +101,7 @@ Convert service expertise into fixed-price monthly subscriptions instead of hour
 - Target market is startups/SMBs (not enterprises)
 
 ❌ **Bad Fit When:**
+
 - You're early in career (slow execution = can't serve enough clients)
 - Skill is highly variable (can't standardize delivery)
 - Target market prefers project-based (e.g., large enterprises)
@@ -114,6 +120,7 @@ Convert service expertise into fixed-price monthly subscriptions instead of hour
 | $5,000+ | Enterprise/custom | 1-2 clients but harder to close |
 
 **Designfly's Pricing Journey:**
+
 - Initial: $3,700-4,900/month ❌ (too high, slow sales)
 - Adjusted: $1,000-1,900/month ✅ (explosive growth)
 - Average: $1,750/month (sweet spot discovered)
@@ -130,6 +137,7 @@ Convert service expertise into fixed-price monthly subscriptions instead of hour
 6. **Build Waitlist**: Create scarcity, raise prices
 
 **Designfly's Current Constraint:**
+
 - 8-10 clients = max capacity at current pricing
 - Options: Raise prices OR hire team OR maintain as lifestyle business
 
@@ -141,4 +149,4 @@ Convert service expertise into fixed-price monthly subscriptions instead of hour
 
 ## Sources
 
-- Designfly story: https://www.indiehackers.com/post/services/growing-a-productized-service-to-10k-mrr-in-18-months-with-no-audience-or-network-yUW5XGCZXfLJOolfun3e (accessed 2025-12-16)
+- Designfly story: <https://www.indiehackers.com/post/services/growing-a-productized-service-to-10k-mrr-in-18-months-with-no-audience-or-network-yUW5XGCZXfLJOolfun3e> (accessed 2025-12-16)

@@ -21,6 +21,7 @@ Start with small pilot deals (10-50 seats) in organizations, prove value quickly
 ## Real Examples (Ranked by Success)
 
 ### 1. Harvey Legal AI - Winston Weinberg ($100M ARR)
+
 - **Context**: Selling AI legal assistant to BigLaw firms and corporates
 - **Land Strategy**:
   - Start with 10-50 seats in specific practice area (M&A, fund formation)
@@ -39,6 +40,7 @@ Start with small pilot deals (10-50 seats) in organizations, prove value quickly
 - **Outcome**: $100M ARR with only 500 customers (high ACV from expansion)
 
 ### 2. 11x AI - Hasan Sukkar ($25M ARR)
+
 - **Context**: AI sales automation for enterprise sales teams
 - **Land Strategy**:
   - Small initial deployment in one sales team
@@ -54,18 +56,21 @@ Start with small pilot deals (10-50 seats) in organizations, prove value quickly
 ## Why This Works
 
 **For the Vendor:**
+
 - Lower initial CAC (easier to sell small pilots)
 - Expansion revenue has near-zero CAC
 - High net revenue retention (>120% typical)
 - Predictable upsell motions
 
 **For the Customer:**
+
 - Low-risk pilot reduces procurement friction
 - Prove value before committing large budgets
 - Internal champions drive organic expansion
 - Gradual rollout easier than big-bang deployment
 
 **Network Effects Within Organization:**
+
 - Users become advocates
 - FOMO drives other teams to adopt
 - Shared workflows create lock-in
@@ -106,6 +111,7 @@ Start with small pilot deals (10-50 seats) in organizations, prove value quickly
 ## When to Use This Pattern
 
 ✅ **Good Fit When:**
+
 - Selling to large organizations (enterprises, law firms, hospitals, etc.)
 - Product has network effects or collaboration features
 - Clear ROI measurable quickly (3-6 months)
@@ -113,6 +119,7 @@ Start with small pilot deals (10-50 seats) in organizations, prove value quickly
 - High potential ACV from full deployment
 
 ❌ **Bad Fit When:**
+
 - SMB/mid-market (organizations too small to expand within)
 - Product is single-user tool (no expansion opportunity)
 - ROI takes years to prove (can't validate pilot fast enough)
@@ -121,23 +128,27 @@ Start with small pilot deals (10-50 seats) in organizations, prove value quickly
 ## Expansion Playbook
 
 **Months 0-3 (Pilot Launch)**:
+
 - Define success metrics with customer upfront
 - Weekly check-ins with pilot team
 - Track usage, satisfaction, early wins
 - Identify champion within pilot group
 
 **Months 3-6 (Prove Value)**:
+
 - Hit success metrics, document ROI
 - Case study/internal testimonial from pilot team
 - Identify next department for expansion
 
 **Months 6-12 (First Expansion)**:
+
 - Expand to 2-3x pilot size
 - Add second product/feature tier
 - Build relationships with other departments
 - Create internal champions network
 
 **Months 12-24 (Scale Within Account)**:
+
 - Expand to majority of organization
 - Cross-sell additional products
 - Executive sponsor relationship
@@ -146,12 +157,14 @@ Start with small pilot deals (10-50 seats) in organizations, prove value quickly
 ## Metrics to Track
 
 **Land Metrics:**
+
 - Pilot conversion rate (demo → pilot deal)
 - Time to pilot close
 - Pilot deal size (seats)
 - Initial ACV
 
 **Expand Metrics:**
+
 - Net Revenue Retention (NRR) - Target >120%
 - Expansion timeline (pilot → full deployment)
 - Seat growth rate within accounts
@@ -159,6 +172,7 @@ Start with small pilot deals (10-50 seats) in organizations, prove value quickly
 - Champion engagement score
 
 **Harvey's Expansion Metrics:**
+
 - 558% YoY growth (driven by expansion)
 - 500 customers at $100M ARR = $200K average ACV
 - Weekly active users quadrupled (engagement growth)
@@ -171,6 +185,6 @@ Start with small pilot deals (10-50 seats) in organizations, prove value quickly
 
 ## Sources
 
-- Harvey Legal AI: https://techcrunch.com/2025/11/14/inside-harvey/ (accessed 2025-12-16)
-- Harvey revenue analysis: https://getlatka.com/blog/harvey-revenue-valuation/ (accessed 2025-12-16)
+- Harvey Legal AI: <https://techcrunch.com/2025/11/14/inside-harvey/> (accessed 2025-12-16)
+- Harvey revenue analysis: <https://getlatka.com/blog/harvey-revenue-valuation/> (accessed 2025-12-16)
 - 11x AI story: research/stories/11x-ai-sales-automation-2025-12-16.md (accessed 2025-12-16)

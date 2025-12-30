@@ -22,6 +22,7 @@ Use real questions from relevant Reddit communities to test your product's quali
 ## Real Examples (Ranked by Success)
 
 ### 1. Harvey Legal AI - Winston Weinberg & Gabriel Pereyra ($100M ARR)
+
 - **Context**: Pre-launch validation for AI legal assistant (2022)
 - **Execution**:
   - Scraped 100 questions from r/legaladvice (landlord-tenant law)
@@ -39,21 +40,25 @@ Use real questions from relevant Reddit communities to test your product's quali
 ## Why This Works
 
 **Unbiased Validation**:
+
 - Experts evaluate on merit, not preconceptions
 - Removes "AI skepticism" bias
 - Objective quality measurement
 
 **Real-World Questions**:
+
 - Reddit questions are authentic user problems
 - No cherry-picking easy scenarios
 - Represents actual use cases
 
 **Expert Standards**:
+
 - Professionals have high quality bars
 - "Would send to client" is real-world threshold
 - If passes expert review, will pass user review
 
 **Cheap & Fast**:
+
 - Reddit questions are free and abundant
 - Can test 100s of scenarios in days
 - No need to recruit test users initially
@@ -92,6 +97,7 @@ Use real questions from relevant Reddit communities to test your product's quali
 ## When to Use This Pattern
 
 ✅ **Good Fit When:**
+
 - Building AI/automation for professional domains (legal, medical, accounting, etc.)
 - Quality is critical and measurable by experts
 - Relevant active subreddit exists (r/legaladvice, r/accounting, r/medicine, etc.)
@@ -99,6 +105,7 @@ Use real questions from relevant Reddit communities to test your product's quali
 - Skepticism exists about AI in your domain
 
 ❌ **Bad Fit When:**
+
 - Consumer product where preference is subjective
 - No relevant Reddit community (too niche)
 - Can't access domain experts for review
@@ -116,6 +123,7 @@ Use real questions from relevant Reddit communities to test your product's quali
 | <50% | Poor quality | Major rework needed or pivot |
 
 **Harvey's 86% Approval**:
+
 - 86 of 100 samples approved by 2+ of 3 attorneys
 - Well above 70% threshold
 - Strong enough to pursue $5M seed funding
@@ -138,5 +146,5 @@ Use real questions from relevant Reddit communities to test your product's quali
 
 ## Sources
 
-- Harvey Legal AI story: https://techcrunch.com/2025/11/14/inside-harvey-how-a-first-year-legal-associate-built-one-of-silicon-valleys-hottest-startups/ (accessed 2025-12-16)
-- Harvey founding story: https://research.contrary.com/company/harvey (accessed 2025-12-16)
+- Harvey Legal AI story: <https://techcrunch.com/2025/11/14/inside-harvey-how-a-first-year-legal-associate-built-one-of-silicon-valleys-hottest-startups/> (accessed 2025-12-16)
+- Harvey founding story: <https://research.contrary.com/company/harvey> (accessed 2025-12-16)
