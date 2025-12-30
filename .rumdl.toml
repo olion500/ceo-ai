@@ -1,7 +1,8 @@
 # rumdl configuration for CEO AI research documentation
 
 # Disable line length check - documentation often needs long lines for tables, URLs, etc.
-disabled_rules = ["MD013"]
+# MD036: Emphasis used for important quotes is intentional
+disabled_rules = ["MD013", "MD036"]
 
 # General settings
 line_length = 120  # Informational only (disabled above)
