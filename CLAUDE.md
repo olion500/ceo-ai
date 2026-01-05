@@ -54,8 +54,20 @@ Each agent is a Claude Code skill located in `.claude/skills/[agent-name]/SKILL.
 
 **Data Storage** (`research/`):
 - `stories/`: Individual product success stories (`[product-slug]-[yyyy-mm-dd].md`)
+- `ideas/`: Business idea generation, evaluation, and feasibility results
+- `evaluations/`: Detailed business idea scoring results
 - `reports/`: Multi-product analysis reports (`[topic]-analysis-[yyyy-mm-dd].md`)
 - `patterns/`: Extracted reusable success patterns, organized by business stage:
+
+**Skill → Folder Mapping:**
+| Skill | Output Folder |
+|-------|---------------|
+| `success-story-researcher` | `stories/` |
+| `idea-finder` | `ideas/` |
+| `business-idea-evaluator` | `ideas/` or `evaluations/` |
+| `feasibility-checker` | `ideas/` |
+| `success-formula-analyzer` | `reports/` + `patterns/` |
+| `business-orchestrator` | `reports/` |
   - `common/`: Universal patterns all successful businesses follow
   - `idea-discovery/`: How to find business ideas (ranked by success probability)
   - `validation/`: How to validate ideas (ranked by reliability)
