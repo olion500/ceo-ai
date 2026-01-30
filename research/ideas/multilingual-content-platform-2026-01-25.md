@@ -196,3 +196,8 @@
 ## 참고 자료
 
 - (추후 경쟁사 분석, 시장 조사 자료 추가)
+
+## Related Evaluations
+
+- [Evaluation](../evaluations/multilingual-content-platform-evaluation-2026-01-25.md)
+- [Feasibility](../evaluations/multilingual-content-platform-feasibility-2026-01-25.md)

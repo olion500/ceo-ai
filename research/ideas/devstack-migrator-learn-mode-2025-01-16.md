@@ -674,3 +674,7 @@ Learn Mode를 활용한 콘텐츠 마케팅:
 - 2025-01-16: MVP를 CRA → Vite로 변경 (강제 수요)
 - 2025-01-16: 제품 로드맵 및 번들 전략 추가
 - Base: devstack-migrator-2024-12-15 + tech-transition-tool-2025-01-16
+
+## Related Evaluations
+
+- [Feasibility](../evaluations/devstack-migrator-learn-mode-feasibility-2025-01-16.md)

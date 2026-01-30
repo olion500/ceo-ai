@@ -304,6 +304,10 @@ ChatGPT Plus (프롬프트 개선용): $20/월
 8. [ ] 5-star 리뷰 요청
 9. [ ] 프롬프트 템플릿 라이브러리 시작 (10개)
 
+## Related Evaluations
+
+- [Idea Validation (2026-01-28)](../evaluations/ai-image-fiverr-service-validation-2026-01-28.md) — Composite: 4.4/10, PIVOT
+
 ## 관련 패턴
 
 - **Monetization:** [Productized Service](../patterns/monetization/productized-service.md)

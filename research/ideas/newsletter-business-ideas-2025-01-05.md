@@ -259,3 +259,7 @@ Primary: Claude Code 한국어 가이드
 **분석 완료:** 2025-01-05
 **분석 방법론:** idea-finder skill
 **소스 문서:** 6개 뉴스레터 성공 사례 + 니치 분석 리포트
+
+## Related Evaluations
+
+- [Feasibility Check](../evaluations/newsletter-feasibility-check-2025-01-05.md)

@@ -288,4 +288,6 @@
 
 ---
 
-*다음 단계: Feasibility 평가*
+## Related Evaluations
+
+- [Feasibility](../evaluations/airdrop-farming-feasibility-2025-01-11.md)

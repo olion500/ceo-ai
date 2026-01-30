@@ -717,6 +717,10 @@ Book Citation Network는 **Connected Papers의 검증된 UX**를 **책 시장의
 
 **결론:** Book Citation Network는 Connected Papers보다 **더 큰 시장, 더 적은 경쟁, 더 많은 수익 채널**을 가진 아이디어입니다. 데이터 확보가 유일한 도전 과제지만, 크라우드소싱 + Obsidian 플러그인 전략으로 해결 가능합니다.
 
+## Related Evaluations
+
+- [Idea Validation (2026-01-28)](../evaluations/book-citation-network-validation-2026-01-28.md) — Composite: 4.8/10, PIVOT
+
 ## 참고 자료
 
 ### 성공 사례

@@ -180,6 +180,10 @@ TypingMind 수준:
 - [ ] Month 1: 100-200 판매
 - [ ] Month 3: 500+ 판매
 
+## Related Evaluations
+
+- [Idea Validation (2026-01-28)](../evaluations/chatgpt-korean-ui-enhancement-validation-2026-01-28.md) — Composite: 4.9/10, PIVOT
+
 ## 관련 패턴
 
 - **Monetization:** [One-Time Purchase](../patterns/monetization/one-time-purchase.md)

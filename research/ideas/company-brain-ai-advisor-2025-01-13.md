@@ -367,3 +367,7 @@ tags: [evaluation, ai, b2b, saas, decision-support, executive-tools]
 - [Lindy.ai - AI Employee](https://www.lindy.ai/)
 - [Mem AI $40M Struggles (Medium)](https://medium.com/@theo-james/mem-ai-the-40m-second-brain-failure-burning-the-worlds-money-5f3176a34cbd)
 - [Enterprise AI Data Security Concerns (Kiteworks)](https://www.kiteworks.com/cybersecurity-risk-management/ai-agents-enterprise-data-privacy-security-balance/)
+
+## Related Evaluations
+
+- [Feasibility](../evaluations/company-brain-feasibility-2025-01-13.md)
