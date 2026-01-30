@@ -9,6 +9,13 @@ description: Find new business ideas by applying proven success patterns from an
 
 Generate new business ideas by applying proven success patterns from 24+ analyzed indie developer success stories. Use reproducible methodologies rather than random brainstorming.
 
+## Output Location
+
+**Save generated idea lists to:** `research/ideas/[topic]-ideas-[yyyy-mm-dd].md`
+
+- Naming: kebab-case topic + ideas + date
+- Example: `research/ideas/saas-developer-tools-ideas-2026-01-26.md`
+
 ## When to Use This Skill
 
 Automatically activates when you mention finding/generating business ideas, looking for startup opportunities, asking what to build next, or exploring market opportunities. See skill-rules.json for complete trigger list.

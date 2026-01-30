@@ -33,13 +33,16 @@ User Request
     ↓
 business-orchestrator (coordinates everything)
     ↓
-    ├── success-story-researcher (web research)
-    ├── success-formula-analyzer (pattern extraction)
-    ├── business-idea-evaluator (8-dimension scoring)
-    └── feasibility-checker (execution validation)
+    ├── idea-validator (6-framework scoring + GO/NO-GO verdict)
+    └── success-formula-analyzer (pattern extraction)
     ↓
 Integrated Report + Action Plan
 ```
+
+Supporting skills (used independently or as pipeline inputs):
+- `success-story-researcher` (web research)
+- `idea-finder` (discover ideas)
+- `idea-elaborator` (flesh out rough ideas)
 
 Each agent is a Claude Code skill located in `.claude/skills/[agent-name]/SKILL.md`.
 
@@ -48,7 +51,7 @@ Each agent is a Claude Code skill located in `.claude/skills/[agent-name]/SKILL.
 **Skills** (`.claude/skills/`):
 - Each skill has a main `SKILL.md` and optional `resources/` directory
 - Skills auto-activate based on keywords/intent patterns defined in `skill-rules.json`
-- Business analysis skills: `success-story-researcher`, `success-formula-analyzer`, `business-idea-evaluator`, `feasibility-checker`, `business-orchestrator`, `idea-finder`
+- Business analysis skills: `success-story-researcher`, `success-formula-analyzer`, `idea-validator`, `business-orchestrator`, `idea-finder`, `idea-elaborator`
 - Documentation skills: `markdown-formatter`
 - Development skills: `backend-dev-guidelines`, `frontend-dev-guidelines`, `route-tester`, `error-tracking`, `skill-developer`
 
@@ -60,14 +63,14 @@ Each agent is a Claude Code skill located in `.claude/skills/[agent-name]/SKILL.
 - `patterns/`: Extracted reusable success patterns, organized by business stage:
 
 **Skill → Folder Mapping:**
-| Skill | Output Folder |
-|-------|---------------|
-| `success-story-researcher` | `stories/` |
-| `idea-finder` | `ideas/` |
-| `business-idea-evaluator` | `ideas/` or `evaluations/` |
-| `feasibility-checker` | `ideas/` |
-| `success-formula-analyzer` | `reports/` + `patterns/` |
-| `business-orchestrator` | `reports/` |
+| Skill | Output Folder | File Naming |
+|-------|---------------|-------------|
+| `success-story-researcher` | `research/stories/` | `[product-slug]-[yyyy-mm-dd].md` |
+| `idea-finder` | `research/ideas/` | `[topic]-ideas-[yyyy-mm-dd].md` |
+| `idea-elaborator` | `research/ideas/` | `[idea-slug]-elaboration-[yyyy-mm-dd].md` |
+| `idea-validator` | `research/evaluations/` | `[idea-slug]-validation-[yyyy-mm-dd].md` |
+| `success-formula-analyzer` | `research/patterns/` | `[category]/[pattern-name].md` |
+| `business-orchestrator` | `research/reports/` | `[idea-slug]-analysis-[yyyy-mm-dd].md` |
   - `common/`: Universal patterns all successful businesses follow
   - `idea-discovery/`: How to find business ideas (ranked by success probability)
   - `validation/`: How to validate ideas (ranked by reliability)
@@ -135,10 +138,10 @@ User: "간단한 웹툴 성공 사례 10개 찾아줘"
 배경: [skills/time/budget]"
 ```
 - Activates `business-orchestrator` skill
-- Coordinates all 4 analysis agents in parallel
+- Coordinates 2 analysis agents in parallel (idea-validator + success-formula-analyzer)
 - Returns comprehensive report with:
-  - Combined score (out of 10)
-  - GO/ITERATE/NO-GO recommendation
+  - Composite score (out of 10) from 6 analysis frameworks
+  - GO/TEST MORE/PIVOT/NO-GO verdict
   - 4-phase action plan
   - Risk analysis and mitigation strategies
 
@@ -272,9 +275,10 @@ These paths are **reference examples** only. When integrating into other project
 **Business Analysis Skills** (Tech-Agnostic):
 - `success-story-researcher`: Works with any tech stack
 - `success-formula-analyzer`: Works with any tech stack
-- `business-idea-evaluator`: Works with any tech stack
-- `feasibility-checker`: Works with any tech stack
+- `idea-validator`: Works with any tech stack
 - `business-orchestrator`: Works with any tech stack
+- `idea-finder`: Works with any tech stack
+- `idea-elaborator`: Works with any tech stack
 
 **Meta Skills** (Universal):
 - `skill-developer`: Works with any tech stack
